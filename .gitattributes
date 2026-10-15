@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Data files are stored byte for byte, so the checksums in the source manifests stay valid
+*.csv -text
+data/raw/** -text

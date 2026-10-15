@@ -1,0 +1,25 @@
+# macOS and editor litter
+.DS_Store
+*.swp
+*~
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local tool settings
+.claude/
+
+# Intermediate pipeline folders (removed at the end of every run)
+results/identification_rebuild/
+results/diagnostics/
+
+# LaTeX build output is ignored by LATEX/.gitignore
+
+# Never ship these again
+archive/
+tmp/
+Rplots.pdf
