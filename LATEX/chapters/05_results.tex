@@ -1,0 +1,128 @@
+\chapter{Results}
+\label{chap:results}
+
+This chapter reports the estimated responses to a one-standard-deviation ECB target-factor easing surprise. The order follows the transmission chain of \Cref{eq:mechanism-chain}. It moves from identification to housing credit, then to lending conditions and intermediation. Equity and asset markets follow, then the compensation-linked block, and the chapter closes with the synthesis and the hypothesis assessment.
+
+\section{Identification Validity}
+
+\Cref{chap:methodology} builds the easing-signed target surprise and tests it. Two limits from that work set the frame for everything below. The surprise has real full-sample relevance for the policy stance, but the relevance is carried by a handful of large events and is not steady enough to treat the surprise as an instrument for the deposit rate or the balance sheet. The estimates are therefore responses to policy news, not to a cleanly isolated structural shock. The second limit is the information effect. An ECB announcement can move markets both through the accommodation it delivers and through what it reveals about the economy. The relevance diagnostics (\Cref{tab:instrument-strength-matrix}) and the event-level screen (\Cref{tab:information-effect-screen}), both developed in \Cref{chap:robustness}, carry these boundaries into the results. The screen returns in the equity block, where it helps to interpret a negative equity response to easing.
+
+The blocks below take the response paths one variable at a time, in the order of the transmission chain. House-purchase lending growth rises, accumulates through the first year, and gives back part of that gain in the second (\Cref{fig:baseline-house-purchase-growth}). Mortgage and corporate lending spreads widen and hold (\Cref{fig:baseline-mortgage-spread,fig:baseline-nfc-spread}). The wage tracker is weaker and loses precision at the long horizon (\Cref{fig:baseline-wage-tracker}). Employment expectations rise on impact and reverse by two years (\Cref{fig:baseline-employment-expectations}). The real DAX moves the other way (\Cref{fig:baseline-dax}).
+
+\section{Housing-Credit Transmission}
+
+Housing credit is the core result, and house-purchase lending growth is the single clearest response in the thesis.
+
+\thesisfigure
+  {baseline/monthly_irf_ecb_house_purchase_growth_yoy.png}
+  {Baseline impulse response of house-purchase lending growth to a one-standard-deviation ECB easing surprise.}
+  {fig:baseline-house-purchase-growth}
+
+The response is positive from impact through one year and peaks at the six-month horizon near \(0.15\), where the \(90\) and \(95\) percent intervals both exclude zero (\(p=0.001\)). The single-horizon coefficient then fades and turns negative (about \(-0.13\)) at two years. The accumulated path carries the more important message. It builds to about \(0.48\) by twelve months and then falls back to about \(0.36\) at twenty-four months, with \(90\) and \(95\) percent HAC intervals that stay clear of zero at both horizons. The fall is a partial reversal. About a quarter of the first-year accumulation is given back in the second year, which is what the negative single-horizon coefficient at two years implies. The dependence-aware bootstraps in \Cref{tab:bootstrap-cumulative} agree with the HAC intervals through twelve months and part ways at two years, where both the moving-block and the wild interval include zero. The two-year accumulated response is therefore positive under every method but precisely estimated only under the HAC approximation. The response of house-purchase lending growth to an easing surprise is positive for the better part of a year, partly reverses in the second year, and its accumulated response stays positive at two years. The claim of durability is firmest through twelve months. That is medium-run credit accommodation, read from the housing-credit channel, not from prices.
+
+Sign stability is the share of the 42 cells formed by the seven event and exclusion samples of \Cref{sec:subsample-analysis} and the six horizons in which the coefficient carries its modal sign. For house-purchase lending growth it is \(0.86\), and the accumulated direction at twelve and twenty-four months is the same in all seven samples, so the positive accumulated path is not the product of one unusual sample.
+
+The same channel can look different in a second series, pure-new house-purchase loans, which measure monthly originations rather than the growth of the outstanding book.
+
+The pure-new series shows no response that is precise under the HAC intervals and cannot carry a persistence claim. The point responses are small and change sign across horizons. The two-year point of about \(-0.03\) has an HAC interval that includes zero, and every accumulated interval includes zero. The bootstrap band is tighter and excludes zero at the two-year point, which is why the series is kept as supporting evidence rather than dropped.
+
+\section{Lending Conditions and Intermediation}
+
+The intermediation block asks whether lending conditions move in a way that makes the housing-credit response believable. The lending spreads give the cleanest answer.
+
+\thesisfigure
+  {baseline/monthly_irf_ecb_mir_mortgage_lending_spread_dfr.png}
+  {Baseline impulse response of the mortgage lending spread to a one-standard-deviation ECB easing surprise.}
+  {fig:baseline-mortgage-spread}
+
+\thesisfigure
+  {baseline/monthly_irf_ecb_mir_nfc_lending_spread_dfr.png}
+  {Baseline impulse response of the NFC lending spread to a one-standard-deviation ECB easing surprise.}
+  {fig:baseline-nfc-spread}
+
+The mortgage lending spread over the deposit rate is positive at every reported horizon and peaks near \(0.05\) at one year, where its interval clears the \(90\) percent bar. Its accumulated response is positive and excludes zero at both \(90\) and \(95\) percent at six, twelve, and twenty-four months under the HAC intervals and under the moving-block bootstrap, though not under the wild bootstrap. Sign stability is a perfect \(1.00\) and the peak horizon does not move across the sample. This is the most stable response in the whole set. The economics is direct. After an easing surprise the margin banks earn over the policy floor widens, while the mortgage rate itself shows no precise response. A wider margin is the price-side counterpart to the housing-credit quantity response in the previous block. Both move in the same direction after the same easing surprise, which is what the intermediation reading expects.
+
+The NFC lending spread follows the same shape at about half the magnitude. It peaks near \(0.025\) at one year with an interval that excludes zero, and its accumulated path clears both \(90\) and \(95\) percent through two years under the HAC intervals, while the moving-block bootstrap confirms only the twelve-month exclusion. Corporate-side margins adjust in the same direction as mortgage margins, durably but by less. Lending-rate levels are estimated less precisely, so the result rests on the margin over the deposit rate rather than on a mechanical move in the rate level.
+
+Broad credit quantities are weaker and sit to one side of the mechanism.
+
+\thesisfigure
+  {baseline/monthly_irf_ln_nfc_loans_ea_stock.png}
+  {Baseline impulse response of Euro Area NFC loan stocks to a one-standard-deviation ECB easing surprise.}
+  {fig:baseline-nfc-loans}
+
+Euro-area NFC and household credit stocks have small response paths and accumulated intervals that include zero at every horizon. Easing still reaches credit, but transmission is sectorally differentiated. Housing-credit growth and lending margins respond and persist, while broad productive-credit quantities do not move with any precision on this shock. The NFC-credit path is too imprecise to support a direction, with sign stability near \(0.52\) and a cumulative-direction score of \(0.50\).
+
+The sequential timing outputs add a second view of the intermediation block. They are ordered associations, not evidence of structural mediation.
+
+\input{tables/gen_sequential_timing}
+
+\Cref{tab:sequential-transmission} reports the eight pathways. In each pathway the upstream variable is taken one or two months after the shock and the downstream variable three or six months after it, so the order is set by the design. The estimate asks whether the early upstream move carries information about the later downstream move once the shock is held fixed. Three quantity links are positive and precise: household credit to house-purchase lending growth, house-purchase lending growth to new mortgage flows, and ECB assets to NFC credit. The price-to-quantity links are weaker. The NFC spread to NFC credit link is positive at the ten percent level. The mortgage-spread to house-purchase growth link is negative and marginal, at \(-1.47\) with \(p=0.088\), so months in which the mortgage margin widened more in the first month saw somewhat weaker house-purchase growth six months on. That is the sign a price-quantity relation should carry, and it is not evidence that the margin drives the credit expansion. The three links into wage pressure are negative or imprecise, which matches the weak and late compensation response reported below.
+
+The peak horizons in \Cref{fig:appendix-banking-peak-timing} complete the picture. House-purchase lending growth peaks at six months, the two spreads at twelve, and the credit stocks and lending rates only at twenty-four. Both spreads respond within the first month, as housing credit does, but their response builds more slowly and peaks later. What the intermediation block documents is that the price side and the quantity side respond to the same shock, in the same direction, over the same year. It does not show one leading the other, and monthly aggregates could not separate one bank's decision from one household's response even if it did.
+
+\thesisfigure
+  {banking/banking_peak_timing.png}
+  {Peak timing evidence for banking, credit, and housing-finance response variables.}
+  {fig:appendix-banking-peak-timing}
+
+\section{Equity and Asset-Market Responses}
+
+The financial-market block does not support the simple idea that easing lifts every asset price.
+
+\thesisfigure
+  {baseline/monthly_irf_ln_dax_real_de.png}
+  {Baseline impulse response of the real DAX to a one-standard-deviation ECB easing surprise.}
+  {fig:baseline-dax}
+
+The real DAX is small and insignificant on impact, then increasingly negative from three months out. The twelve- and twenty-four-month coefficients, near \(-0.021\) and \(-0.027\), exclude zero at \(90\) and \(95\) percent. The accumulated response excludes zero from one year, reaching about \(-0.067\) at two years, and the two-year exclusion holds under the moving-block and the wild bootstrap as well. Sign stability is \(0.90\) and the cumulative direction is perfectly consistent. This is the sharpest sign puzzle in the results. Real equity prices fall after an easing surprise. The information screen is the natural reading, and the response is treated as an information-effect boundary here. The deeper mechanism is left to the discussion.
+
+ECB assets are negative through two years as well, but the intervals include zero at every horizon. They give liquidity-stock context rather than a firm response. Taken together, the asset-market variables mark a boundary. Some financial prices respond, but the durable positive mechanism sits in the housing-credit and lending-condition blocks, not in equities or the balance-sheet stock.
+
+\section{Compensation-Linked and Real-Economy Responses}
+
+The compensation-linked block is the real-economy comparison. The euro-area wage tracker and employment expectations are weaker and less consistent than the financial blocks above. The German industry wage bill is not.
+
+\thesisfigure
+  {baseline/monthly_irf_ecb_wage_tracker_ex_oneoffs_real_yoy.png}
+  {Baseline impulse response of the real ECB Wage Tracker excluding one-offs to a one-standard-deviation ECB easing surprise.}
+  {fig:baseline-wage-tracker}
+
+\thesisfigure
+  {baseline/monthly_irf_eurostat_ecfin_eei_ea20.png}
+  {Baseline impulse response of employment expectations to a one-standard-deviation ECB easing surprise.}
+  {fig:baseline-employment-expectations}
+
+The real ECB Wage Tracker excluding one-offs is negative from impact through one year and turns positive only at the two-year point, where the HAC interval includes zero even though the bootstrap band does not. Its accumulated response is negative and excludes zero at six and twelve months under the HAC intervals and the wild bootstrap, near \(-0.26\) and \(-0.30\), but not under the moving-block bootstrap, and it returns toward zero and includes zero at two years under every method. Real compensation growth dips after easing and the dip fades. The short-horizon fall is consistent with prices moving faster than nominal pay right after an easing surprise, but the long-horizon estimate is too imprecise, on a \(152\)-observation sample, to claim durable income transmission. Sign stability is only \(0.67\).
+
+Employment expectations move earlier and by more. They are positive from impact through one year, with an impact reading near \(0.41\) and a one-month peak near \(1.17\), then reverse to a negative and HAC-significant value at two years. The accumulated path is strongly positive and excludes zero at six and twelve months under the HAC intervals and the moving-block bootstrap, though not under the wild bootstrap, and includes zero at two years under every method. Employment expectations rise quickly after an easing surprise and then give the improvement back. This is short-horizon labor sentiment, not durable transmission into employment.
+
+The German industry real wage bill does not fade. It rises on impact and peaks at one month, and its accumulated response keeps its sign and excludes zero at every horizon through two years, near \(1.49\) at h24. That holds under the HAC interval and under both bootstraps from one month on (\Cref{tab:cumulative-persistence,tab:bootstrap-cumulative}). It is sectoral and national rather than euro-area wide, but it is a compensation-linked response, and its response is durable.
+
+\section{Persistence Synthesis}
+
+Sign, accumulated response, precision, and stability line up most fully for four responses. \Cref{tab:persistence-synthesis} sets the variables side by side.
+
+\input{tables/static_persistence_synthesis}
+
+Read down the table and three groups appear. House-purchase lending growth, the two lending spreads, and the German wage bill form the durable positive block, with accumulated HAC intervals that exclude zero through two years and high to perfect stability. The two spreads keep accumulating through the second year. Housing credit does not. Its accumulated response peaks at twelve months and partly reverses, and in shape alone its path resembles that of employment expectations, which also peak at twelve months and give back a comparable share of the gain by two years. What separates the two is precision and stability, not shape. The housing-credit accumulation keeps its sign in every sample and horizon and its two-year HAC interval excludes zero, while employment expectations lose both. The DAX is just as durable but in the opposite direction, which places it on the information-effect boundary rather than in the appreciation story. NFC credit, ECB assets, the wage tracker, and employment expectations mark the limits of the evidence, each losing either precision, sign stability, or long-horizon exclusion. The exclusions in the table are HAC exclusions. Under the dependence-aware bootstraps in \Cref{tab:bootstrap-cumulative} the two-year exclusion survives for the mortgage spread, the German wage bill, and the DAX, while the housing-credit exclusion survives through twelve months.
+
+The underlying estimates are reported in full in \Cref{tab:normalized-irf-output}, which gives the horizon-level coefficients and HAC standard errors for every response, and in \Cref{tab:cumulative-persistence}, which gives the accumulated paths and marks where the 90 percent interval excludes zero. Reading the two together shows the pattern the synthesis compresses. Housing credit, the lending spreads, and the German wage bill hold their accumulated HAC exclusion at the long horizons, while the wage tracker, employment expectations, and broad credit lose it.
+
+\input{tables/gen_baseline_irfs}
+
+\input{tables/gen_cumulative_persistence}
+
+\section{Hypothesis Assessment}
+
+\Cref{tab:hypothesis-assessment} sets out the three assessments. H1 is supported at short and medium horizons in the full-sample estimates. House-purchase lending growth responds on impact and peaks at six months, and its accumulated response excludes zero from impact through twelve months under the HAC interval and both bootstraps. H2 is supported for the canonical wage tracker, with a proxy boundary. The German industry wage bill, kept as a sectoral robustness proxy, keeps its sign and excludes zero from one month through two years under every interval method, so the verdict depends on which compensation proxy is treated as canonical. The conditional word for H3 is deliberate. The claim is not that every coefficient is invariant, only that the ordering of durable responses survives most clearly for house-purchase lending growth and the lending spreads.
+
+\input{tables/static_hypothesis_assessment}
+
+\section{Regime Comparisons}
+
+The regime split is descriptive. It shows how the same target surprise maps into different observed conditions across policy eras, not a separate identified experiment. The four eras are pre-QE through January 2014, QE from February 2014 to December 2019, COVID from January 2020 to December 2021, and tightening from January 2022 to the end of the sample.
+
+Pre-QE estimates carry strong positive accumulated house-purchase lending growth through two years. Under QE the same surprise lands in different conditions, including negative house-purchase lending growth and negative NFC spreads. COVID is visible only at short horizons. The tightening era shows positive housing-credit and spread accumulation alongside negative wage-pressure accumulation. These patterns speak to historical dependence. They do not replace the full-sample estimates, and the robustness chapter returns to them under formal event filters.
+
+The responses are now in place. The next chapter asks whether they survive changes to the specification, the shock, and the sample.

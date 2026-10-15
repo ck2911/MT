@@ -1,0 +1,21 @@
+response,response_label,channel,h0_cum90,h1_cum90,h3_cum90,h6_cum90,h12_cum90,h24_cum90
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,True,True,True,True,True,True
+ecb_mir_mortgage_lending_rate,mortgage lending rate,banking_lending_conditions,False,False,False,False,False,False
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,False,True,True,True,True,True
+ecb_mir_nfc_lending_rate,NFC lending rate,banking_lending_conditions,False,False,False,False,False,False
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,False,False,False,True,True,True
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,True,False,True,True,True,False
+ecb_wage_tracker_ex_oneoffs_real_yoy_ma3,"real wage tracker excl. one-offs, 3m avg",compensation_proxy,False,False,False,False,False,False
+ecb_wage_tracker_ex_oneoffs_real_yoy_momentum_3m,"real wage tracker excl. one-offs, 3m momentum",compensation_proxy,False,False,False,False,False,False
+ecb_wage_tracker_headline_real_yoy,real wage tracker headline,compensation_proxy,True,False,False,True,True,False
+ecb_wage_tracker_unsmoothed_oneoffs_real_yoy,real wage tracker unsmoothed one-offs,compensation_proxy,False,False,False,False,False,False
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,False,False,True,True,True,False
+eurostat_ecfin_services_employment_expectations_ea20,services employment expectations,labor_tightness,False,False,True,True,True,False
+eurostat_labor_tightness_unemployment_inv,inverse unemployment labor tightness,labor_tightness,False,False,False,True,True,True
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,True,True,True,True,True,True
+ln_dax_real_de,real DAX,financial_market,False,False,False,False,True,True
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,False,False,False,False,False,False
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,False,False,False,False,False,False
+ln_hh_loans_ea_stock,household credit,financial_credit,False,False,False,False,False,False
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,False,False,False,False,False,False
+ln_retail_de_chained_index,retail volume,real_activity,False,False,False,False,False,False

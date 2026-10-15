@@ -1,0 +1,28 @@
+# Final generated PDF
+/main.pdf
+/main [0-9]*.pdf
+
+# Dedicated LaTeX build directory
+/build/*
+!/build/.gitkeep
+
+# Common TeX spillover if a tool is run without latexmkrc
+/main.aux
+/main.bbl
+/main.bcf
+/main.blg
+/main.fdb_latexmk
+/main.fls
+/main.lof
+/main.log
+/main.lot
+/main.out
+/main.run.xml
+/main.synctex.gz
+/main.toc
+
+# Local/editor files
+.DS_Store
+*.swp
+*.swo
+*~

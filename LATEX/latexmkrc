@@ -1,0 +1,27 @@
+# Professional thesis build layout.
+#
+# Policy:
+# - main.pdf is the only generated file allowed in the project root. It is
+#   maintained as a symlink to build/main.pdf so SyncTeX can stay beside the
+#   real PDF in build/.
+# - All LaTeX, biblatex/biber, latexmk, log, and SyncTeX intermediates
+#   are isolated in build/.
+# - VS Code LaTeX Workshop and terminal builds both call this file.
+
+$pdf_mode = 5;
+@default_files = ('main.tex');
+
+$out_dir = 'build';
+$aux_dir = 'build';
+$emulate_aux_dir = 0;
+
+$xelatex = 'xelatex -interaction=nonstopmode -halt-on-error -file-line-error -synctex=1 %O %S';
+$bibtex_use = 2;
+$biber = 'biber %O %B';
+
+$max_repeat = 5;
+$recorder = 1;
+$success_cmd = 'ln -sf build/main.pdf main.pdf';
+
+$clean_ext = 'aux bbl bcf blg fdb_latexmk fls lof log lot out run.xml synctex.gz toc xdv';
+$cleanup_includes_cusdep_generated = 1;

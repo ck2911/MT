@@ -1,0 +1,119 @@
+% ---------------------------------------------------------------------------
+% Conceptual diagrams.
+%
+% Presentation only. Nothing in this file carries a number, an estimate, or an
+% interval. It defines the drawing language for the thesis conceptual figures so
+% that a hand-drawn TikZ diagram and a matplotlib artifact can sit on the same
+% page without a clash of colour, weight, or type.
+%
+% The palette is the LaTeX twin of src/viz/style.py. Keep the two in step.
+% ---------------------------------------------------------------------------
+
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,calc,fit,backgrounds,shapes.geometric}
+
+% ------------------------------------------------------------------ palette
+% Mirrors src/viz/style.py: navy carries the estimate, steel and its fill carry
+% uncertainty, brick is the single contrast accent, the greys carry structure.
+\definecolor{thesisnavy}{HTML}{1F3B57}
+\definecolor{thesisnavylight}{HTML}{41627F}
+\definecolor{thesissteel}{HTML}{AFC2D1}
+\definecolor{thesisfill}{HTML}{DCE5EC}
+\definecolor{thesisbrick}{HTML}{9C4722}
+\definecolor{thesisgrey}{HTML}{6E7B85}
+\definecolor{thesisgreylight}{HTML}{AAB4BB}
+\definecolor{thesisrule}{HTML}{3F484E}
+\definecolor{thesisink}{HTML}{22282C}
+
+% ------------------------------------------------------------------- styles
+% Diagram type is the document serif, one step down from the body, with the 1.5
+% body leading relaxed so a wrapped label reads as a compact block rather than as
+% loose running text. The body sets a low hyphenation penalty, which is right for
+% a justified 16 cm measure and wrong inside a 30 mm box, so short labels break
+% between words instead of splitting them.
+\newcommand{\thesisdiagramtype}{%
+  \setstretch{1.06}\footnotesize
+  \hyphenpenalty=10000
+  \exhyphenpenalty=10000
+  \pretolerance=9999
+  \tolerance=9999
+  \emergencystretch=0pt
+}
+
+\tikzset{
+  % Picture-level defaults.
+  thesisdiagram/.style={
+    line width=0.5pt,
+    draw=thesisrule,
+    text=thesisink,
+    font=\thesisdiagramtype,
+    node distance=6mm,
+    inner sep=0pt,
+    outer sep=0pt,
+  },
+  % Soft box: hairline rule, barely tinted fill, generous interior padding.
+  softnode/.style={
+    draw=thesisrule,
+    line width=0.5pt,
+    fill=thesisfill!45!white,
+    rounded corners=2pt,
+    inner xsep=6.5pt,
+    inner ysep=6pt,
+    outer sep=0pt,
+    align=center,
+    text=thesisink,
+    font=\thesisdiagramtype,
+  },
+  % Faint variant. Used where a stage is read alongside an argument rather than
+  % asserted as part of it.
+  softnode faint/.style={
+    softnode,
+    draw=thesisgreylight,
+    dash pattern=on 1.7pt off 1.5pt,
+    fill=white,
+    text=thesisrule,
+  },
+  % Fixed-width chain box, so every stage in a chain is the same size.
+  chainnode/.style={
+    softnode,
+    text width=#1,
+    minimum height=17mm,
+  },
+  chainnode faint/.style={
+    softnode faint,
+    text width=#1,
+    minimum height=17mm,
+  },
+  % Connectors. Thin, short, and the same grey as the box rules.
+  chainarrow/.style={
+    draw=thesisrule,
+    line width=0.5pt,
+    -{Stealth[length=4.2pt,width=3.0pt,round]},
+    shorten <=0.6pt,
+    shorten >=0.6pt,
+  },
+  % Faint connector for a link that is interpretive rather than causal.
+  chainarrow soft/.style={
+    chainarrow,
+    draw=thesisgrey,
+    dash pattern=on 1.7pt off 1.5pt,
+  },
+}
+
+% -------------------------------------------------------- reusable chain
+% \thesismechanismchain[<stage text width>]{stage 1}{stage 2}{stage 3}{stage 4}
+%
+% Four equally sized stages, evenly spaced, joined by short arrows. The terminal
+% stage takes the faint treatment because it is evidence read alongside the
+% chain, not a strict downstream consequence of it.
+\newcommand{\thesismechanismchain}[5][0.183\linewidth]{%
+  \begin{tikzpicture}[thesisdiagram]
+    \node[chainnode={#1}]                        (stageone)   {#2};
+    \node[chainnode={#1}, right=of stageone]     (stagetwo)   {#3};
+    \node[chainnode={#1}, right=of stagetwo]     (stagethree) {#4};
+    \node[chainnode faint={#1}, right=of stagethree] (stagefour) {#5};
+    \draw[chainarrow]      (stageone)   -- (stagetwo);
+    \draw[chainarrow]      (stagetwo)   -- (stagethree);
+    \draw[chainarrow soft] (stagethree) -- (stagefour);
+  \end{tikzpicture}%
+}

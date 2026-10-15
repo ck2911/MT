@@ -1,0 +1,174 @@
+% Chair of Financial Institutions formatting guide:
+% 12 pt Times New Roman, 2.5 cm margins, justified 1.5-spaced
+% block text, first-line paragraph indentation, and no running headers.
+\geometry{
+  a4paper,
+  left=2.5cm,
+  right=2.5cm,
+  top=2.5cm,
+  bottom=2.5cm,
+  includehead=false,
+  includefoot=false
+}
+\setstretch{1.5}
+\pagestyle{plain}
+\frenchspacing
+
+% Publication-oriented defaults.
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+\setlength{\parindent}{0.5cm}
+\setlength{\parskip}{0pt}
+\emergencystretch=2em
+\raggedbottom
+
+% Typographic quality. Protrusion and expansion tighten justification and
+% remove the loose inter-word gaps that otherwise appear in 1.5-spaced blocks.
+% Font expansion is a pdfTeX feature, so XeLaTeX gets protrusion only.
+\ifPDFTeX
+  \microtypesetup{protrusion=true,expansion=true,factor=1100,stretch=15,shrink=18}
+\else
+  \microtypesetup{protrusion=true,expansion=false}
+\fi
+\hyphenpenalty=110
+\tolerance=1800
+\hbadness=2200
+
+% No single lines stranded at the top or bottom of a page.
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\brokenpenalty=10000
+\predisplaypenalty=10000
+
+% Display equations should not inherit the full 1.5 line stretch.
+\setlength{\abovedisplayskip}{0.7\baselineskip}
+\setlength{\belowdisplayskip}{0.7\baselineskip}
+\setlength{\abovedisplayshortskip}{0.4\baselineskip}
+\setlength{\belowdisplayshortskip}{0.5\baselineskip}
+
+% Compact, consistent float separation.
+\setlength{\textfloatsep}{1.0\baselineskip}
+\setlength{\intextsep}{1.0\baselineskip}
+\setlength{\floatsep}{0.8\baselineskip}
+\setlength{\abovecaptionskip}{0.5\baselineskip}
+\setlength{\belowcaptionskip}{0pt}
+% Float-only pages align to the top instead of floating in the middle.
+\makeatletter
+\setlength{\@fptop}{0pt}
+\setlength{\@fpsep}{14pt plus 1fil}
+\setlength{\@fpbot}{0pt plus 1fil}
+\makeatother
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+
+% Slightly opened-up tabular rows for booktabs rules.
+\renewcommand{\arraystretch}{1.15}
+
+\titleformat{\chapter}[block]
+  {\normalfont\Large\bfseries}
+  {\thechapter.}
+  {0.8em}
+  {}
+\titleformat{name=\chapter,numberless}[block]
+  {\normalfont\Large\bfseries}
+  {}
+  {0pt}
+  {}
+\titlespacing*{\chapter}{0pt}{0pt}{1.2\baselineskip}
+\titleformat{\section}[hang]
+  {\normalfont\large\bfseries}
+  {\thesection}
+  {0.8em}
+  {}
+\titlespacing*{\section}{0pt}{1.3\baselineskip}{0.65\baselineskip}
+\titleformat{\subsection}[hang]
+  {\normalfont\normalsize\bfseries}
+  {\thesubsection}
+  {0.8em}
+  {}
+\titlespacing*{\subsection}{0pt}{1.1\baselineskip}{0.45\baselineskip}
+\titleformat{\subsubsection}[hang]
+  {\normalfont\normalsize\bfseries}
+  {\thesubsubsection}
+  {0.8em}
+  {}
+\titlespacing*{\subsubsection}{0pt}{0.9\baselineskip}{0.35\baselineskip}
+
+% Captions are single-spaced so they read as a compact block under the float.
+\captionsetup{
+  font={footnotesize,stretch=1.0},
+  labelfont=bf,
+  labelsep=colon,
+  justification=justified,
+  singlelinecheck=false,
+  skip=0.5\baselineskip
+}
+% Figure captions sit above the figure, like table captions (chair guide:
+% descriptive heading above, source below).
+\captionsetup[figure]{position=top}
+\captionsetup[table]{position=top}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftdotsep}{1.5}
+\renewcommand{\cfttoctitlefont}{\normalfont\Large\bfseries}
+\renewcommand{\cftloftitlefont}{\normalfont\Large\bfseries}
+\renewcommand{\cftlottitlefont}{\normalfont\Large\bfseries}
+\setlength{\cftbeforetoctitleskip}{0pt}
+\setlength{\cftbeforeloftitleskip}{0pt}
+\setlength{\cftbeforelottitleskip}{0pt}
+\setlength{\cftaftertoctitleskip}{2.2em}
+\setlength{\cftafterloftitleskip}{2.2em}
+\setlength{\cftafterlottitleskip}{2.2em}
+\setlength{\cftbeforechapskip}{0.55em}
+\setlength{\cftbeforesecskip}{0.05em}
+\setlength{\cftchapnumwidth}{2.1em}
+\setlength{\cftsecindent}{2.1em}
+\setlength{\cftsecnumwidth}{3.1em}
+\sisetup{
+  detect-all,
+  group-minimum-digits=4,
+  table-number-alignment=center
+}
+
+\numberwithin{equation}{chapter}
+
+\hypersetup{
+  pdftitle={\ThesisTitle},
+  pdfauthor={\ThesisAuthor},
+  pdfsubject={Master thesis},
+  pdfkeywords={monetary policy, high-frequency identification, ECB, housing credit, financial intermediation, compensation, transmission},
+  colorlinks=true,
+  linkcolor=linknavy,
+  citecolor=citeplum,
+  urlcolor=urlteal,
+  filecolor=urlteal,
+  linktoc=all,
+  breaklinks=true,
+  bookmarksnumbered=true,
+  bookmarksopen=true,
+  bookmarksopenlevel=1
+}
+
+% The report class does not provide book-style front/main/back matter commands.
+\providecommand{\frontmatter}{%
+  \cleardoublepage
+  \pagenumbering{Roman}
+  \setcounter{page}{1}
+}
+\providecommand{\mainmatter}{%
+  \cleardoublepage
+  \pagenumbering{arabic}
+  \setcounter{page}{1}
+}
+\providecommand{\backmatter}{%
+  \cleardoublepage
+}
+
+% Block quotations (the research question) are indented on both sides, italic,
+% and set with tighter leading than the body text. The hypothesis environment
+% reuses this block, so the two read as one design.
+\renewenvironment{quote}
+  {\list{}{\leftmargin=2em\rightmargin=2em\topsep=0.25\baselineskip}\item\relax\itshape\sloppy\setstretch{1.3}}
+  {\endlist}

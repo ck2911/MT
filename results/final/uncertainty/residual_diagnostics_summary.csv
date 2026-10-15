@@ -1,0 +1,11 @@
+response,response_label,nobs_h0,serial_corr_beyond_bandwidth_horizons,heteroskedasticity_horizons,arch_horizons,non_normal_horizons,n_horizons
+ln_ecb_assets_ea_stock,ECB assets,246,"0, 1, 3, 6, 12, 24","0, 1, 3","0, 1, 3, 6, 12, 24","0, 1, 3, 24",6
+ln_dax_real_de,real DAX,246,"6, 12, 24","0, 1, 3, 6, 12, 24","1, 3, 6, 12, 24","0, 1, 3, 6, 12, 24",6
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,246,"6, 12, 24","1, 3, 6, 12, 24","0, 1, 3, 6, 12, 24","0, 1, 3, 6, 12, 24",6
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,246,"0, 12, 24",1,"0, 1, 3, 6, 12, 24","0, 1, 3, 6, 12, 24",6
+ln_nfc_loans_ea_stock,NFC credit,246,"0, 1, 3, 6, 12, 24","6, 12, 24","1, 3, 6, 12, 24","0, 1, 3, 6, 12",6
+ecb_house_purchase_growth_yoy,house-purchase lending growth,246,"0, 1, 3, 6, 12, 24","1, 3, 6, 12, 24","0, 1, 3, 6, 12, 24","0, 1, 3",6
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,97,"0, 1, 3, 6, 12, 24","3, 6",12,none,6
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,152,"0, 1, 3, 6, 12","0, 1, 6, 12, 24","1, 3, 6, 12, 24","0, 1, 3, 6, 12, 24",6
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,235,"0, 1, 3, 24","1, 3","0, 1, 3, 6, 12, 24","0, 1, 3, 6, 12, 24",6
+eurostat_ecfin_eei_ea20,employment expectations,246,"3, 6, 12","0, 1","1, 3, 6, 12, 24","0, 1, 3, 6, 12, 24",6

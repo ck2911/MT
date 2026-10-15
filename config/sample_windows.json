@@ -1,0 +1,16 @@
+{
+  "baseline": {
+    "start": "2005Q1",
+    "start_date": "2005-03-31",
+    "end": "2022Q2",
+    "end_date": "2022-06-30",
+    "policy_variable": "wx_shadow_rate"
+  },
+  "robustness": {
+    "start": "2005Q1",
+    "start_date": "2005-03-31",
+    "end": "2025Q4",
+    "end_date": "2025-12-31",
+    "policy_variable": "dfr_eop"
+  }
+}

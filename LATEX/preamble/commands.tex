@@ -1,0 +1,102 @@
+% Canonical project paths. These are relative to LATEX/main.tex.
+\newcommand{\projectroot}{..}
+\newcommand{\figpath}{../results/final/figures}
+\newcommand{\tablepath}{../results/final/tables}
+\newcommand{\diagnosticpath}{../results/final/diagnostics}
+\newcommand{\robustpath}{../results/final/robustness}
+\newcommand{\regimepath}{../results/final/regime}
+\newcommand{\stabilitypath}{../results/final/stability}
+\newcommand{\uncertaintypath}{../results/final/uncertainty}
+\newcommand{\mechanismpath}{../results/final/mechanism}
+\newcommand{\datapath}{../data/processed/eu_de}
+
+% Econometric notation.
+\DeclareMathOperator{\Expect}{\mathbb{E}}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\Cov}{Cov}
+\DeclareMathOperator{\IRF}{IRF}
+\DeclareMathOperator{\FEVD}{FEVD}
+\newcommand{\VAR}{\operatorname{VAR}}
+\newcommand{\SVAR}{\operatorname{SVAR}}
+\newcommand{\LP}{\operatorname{LP}}
+\newcommand{\shock}{\varepsilon}
+\newcommand{\policyshock}{\shock^{mp}}
+\newcommand{\surprise}{z}
+\newcommand{\lagop}{L}
+\ifPDFTeX
+  \newcommand{\vect}[1]{\bm{#1}}
+  \newcommand{\mat}[1]{\bm{#1}}
+\else
+  \newcommand{\vect}[1]{\symbf{#1}}
+  \newcommand{\mat}[1]{\symbf{#1}}
+\fi
+\newcommand{\transpose}{^{\prime}}
+\newcommand{\given}{\,\middle|\,}
+\newcommand{\diff}{\Delta}
+\newcommand{\indicator}[1]{\mathbf{1}\{#1\}}
+\newcommand{\Hnull}{\mathcal{H}_{0}}
+\newcommand{\Halt}{\mathcal{H}_{1}}
+
+% Table notation.
+\newcommand{\sym}[1]{\ifmmode^{#1}\else\textsuperscript{#1}\fi}
+\newcommand{\starnote}{\footnotesize Notes: \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).}
+\newcommand{\hacnote}{\footnotesize Notes: HAC/Newey-West intervals use horizon-specific bandwidth unless stated otherwise.}
+
+% Cross-reference helpers.
+\newcommand{\appref}[1]{\Cref{#1}}
+\newcommand{\figref}[1]{\Cref{#1}}
+\newcommand{\tabref}[1]{\Cref{#1}}
+\newcommand{\chapref}[1]{\Cref{#1}}
+
+% Figure import helper.
+% Call site: \thesisfigure[width]{subdir/name.png}{caption}{label}.
+% Resolution order per call: vector PDF sibling of the given PNG, then the PNG
+% itself, then the missing-artifact placeholder box. The default width is a
+% single-panel evidence size; wider families (comparison charts, matrices)
+% pass an explicit [width] at the call site as before.
+% Chair guide: the caption is the heading above the figure and the source is
+% stated directly below it.
+\newcommand{\figuresource}[2][\linewidth]{%
+  \par\vspace{0.3em}%
+  \parbox{#1}{\footnotesize\setstretch{1.0}Source: #2}\par
+}
+\newcommand{\thesisfigure}[4][0.80\textwidth]{%
+  \begin{figure}[htbp]
+    \centering
+    \caption{#3}
+    \label{#4}
+    \StrSubstitute{#2}{.png}{.pdf}[\thesisfigurepdfname]%
+    \IfFileExists{\figpath/\thesisfigurepdfname}{%
+      \includegraphics[width=#1]{\figpath/\thesisfigurepdfname}%
+    }{%
+      \IfFileExists{\figpath/#2}{%
+        \includegraphics[width=#1]{\figpath/#2}%
+      }{%
+        \fbox{\begin{minipage}[c][0.25\textheight][c]{0.86\textwidth}
+          \centering
+          Missing canonical figure artifact:\par
+          \nolinkurl{results/final/figures/#2}
+        \end{minipage}}%
+      }%
+    }%
+    \figuresource[#1]{own calculations.}
+  \end{figure}
+}
+
+% Table artifact helper. This keeps CSV files as the source of truth while
+% registering the thesis-facing table in the list of tables.
+\newcommand{\artifacttable}[4]{%
+  \begin{table}[htbp]
+    \centering
+    \caption{#1}
+    \label{#2}
+    \begin{tabularx}{\textwidth}{@{}p{0.28\textwidth}X@{}}
+      \toprule
+      Canonical artifact & \nolinkurl{#3} \\
+      Thesis use & #4 \\
+      \bottomrule
+    \end{tabularx}
+    \vspace{0.25em}
+    {\footnotesize Source: \nolinkurl{#3}.}
+  \end{table}
+}

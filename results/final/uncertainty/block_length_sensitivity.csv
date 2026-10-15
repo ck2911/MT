@@ -1,0 +1,151 @@
+response,response_label,channel,horizon_months,block_length_setting,sensitivity_block_length,interval_width_90,bootstrap_replications
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,6,4,4,0.020710001841380065,199
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,12,4,4,0.0305813401528884,199
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,24,4,4,0.040174967371913596,199
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,6,6,6,0.021947894147617646,199
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,12,6,6,0.03449430485389103,199
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,24,6,6,0.04514541984855592,199
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,6,9,9,0.021852369555620206,199
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,12,9,9,0.03264135627441846,199
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,24,9,9,0.04611536067017812,199
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,6,12,12,0.022338630596480384,199
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,12,12,12,0.03487225972228894,199
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,24,12,12,0.04600515818692174,199
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,6,auto,12,0.022338630596480384,199
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,12,auto,12,0.03487225972228894,199
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,24,auto,12,0.04600515818692174,199
+ln_dax_real_de,real DAX,financial_market,6,4,4,0.023100215770497104,199
+ln_dax_real_de,real DAX,financial_market,12,4,4,0.03146834814844046,199
+ln_dax_real_de,real DAX,financial_market,24,4,4,0.03630055989409936,199
+ln_dax_real_de,real DAX,financial_market,6,6,6,0.023346360132884325,199
+ln_dax_real_de,real DAX,financial_market,12,6,6,0.03180921265584306,199
+ln_dax_real_de,real DAX,financial_market,24,6,6,0.03598394674339943,199
+ln_dax_real_de,real DAX,financial_market,6,9,9,0.023220538497433968,199
+ln_dax_real_de,real DAX,financial_market,12,9,9,0.031016627246766716,199
+ln_dax_real_de,real DAX,financial_market,24,9,9,0.03429189109784398,199
+ln_dax_real_de,real DAX,financial_market,6,12,12,0.021123521276803198,199
+ln_dax_real_de,real DAX,financial_market,12,12,12,0.02690840430813883,199
+ln_dax_real_de,real DAX,financial_market,24,12,12,0.036271905359617496,199
+ln_dax_real_de,real DAX,financial_market,6,auto,12,0.021123521276803198,199
+ln_dax_real_de,real DAX,financial_market,12,auto,12,0.02690840430813883,199
+ln_dax_real_de,real DAX,financial_market,24,auto,12,0.036271905359617496,199
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,6,4,4,0.0684404652973105,199
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,12,4,4,0.0864206181626639,199
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,24,4,4,0.09279227879102828,199
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,6,6,6,0.07024722552705202,199
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,12,6,6,0.10213977463894082,199
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,24,6,6,0.1023598961039709,199
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,6,9,9,0.054220475154903094,199
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,12,9,9,0.08025618836804861,199
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,24,9,9,0.101549505163677,199
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,6,12,12,0.05990281879123927,199
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,12,12,12,0.09135604553852648,199
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,24,12,12,0.10102028798998025,199
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,6,auto,12,0.05990281879123927,199
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,12,auto,12,0.09135604553852648,199
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,24,auto,12,0.10102028798998025,199
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,6,4,4,0.039239869165212014,199
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,12,4,4,0.0457828535241298,199
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,24,4,4,0.058873359405901576,199
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,6,6,6,0.03925328460235294,199
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,12,6,6,0.04634063779784569,199
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,24,6,6,0.05639115436085321,199
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,6,9,9,0.03455656041068833,199
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,12,9,9,0.04425262333696258,199
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,24,9,9,0.06078887993357773,199
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,6,12,12,0.037551908318535984,199
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,12,12,12,0.05138587202913909,199
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,24,12,12,0.05819634611436243,199
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,6,auto,12,0.037551908318535984,199
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,12,auto,12,0.05138587202913909,199
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,24,auto,12,0.05819634611436243,199
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,6,4,4,0.003958257068035411,199
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,12,4,4,0.006353647533742256,199
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,24,4,4,0.00850436965862647,199
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,6,6,6,0.004154197801040719,199
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,12,6,6,0.006181153512798616,199
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,24,6,6,0.009215547376628625,199
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,6,9,9,0.0038714460267521835,199
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,12,9,9,0.005784540901559169,199
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,24,9,9,0.008737002824699396,199
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,6,12,12,0.0043489446765471625,199
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,12,12,12,0.006741705369389941,199
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,24,12,12,0.01047852620326236,199
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,6,auto,12,0.0043489446765471625,199
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,12,auto,12,0.006741705369389941,199
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,24,auto,12,0.01047852620326236,199
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,6,4,4,0.21734045670372423,199
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,12,4,4,0.2996130335139842,199
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,24,4,4,0.32877662054743934,199
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,6,6,6,0.207237382343735,199
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,12,6,6,0.2559028558105869,199
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,24,6,6,0.39021427531811437,199
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,6,9,9,0.16404728746143707,199
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,12,9,9,0.2504814894109343,199
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,24,9,9,0.3072106058195046,199
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,6,12,12,0.1782288278535009,199
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,12,12,12,0.253668945189861,199
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,24,12,12,0.3822268932551923,199
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,6,auto,12,0.1782288278535009,199
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,12,auto,12,0.253668945189861,199
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,24,auto,12,0.3822268932551923,199
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,6,4,4,0.05694848016135659,199
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,12,4,4,0.06524476046422457,199
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,24,4,4,0.05691476775668819,199
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,6,6,6,0.0549507717788521,199
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,12,6,6,0.06194587871907621,199
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,24,6,6,0.05952283224696518,199
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,6,9,9,0.05318501062881059,199
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,12,9,9,0.058933614955521726,199
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,24,9,9,0.054407026651893405,199
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,6,12,12,0.054412727428179646,199
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,12,12,12,0.05469763673859955,199
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,24,12,12,0.048899695975283555,199
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,6,auto,12,0.054412727428179646,199
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,12,auto,12,0.05469763673859955,199
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,24,auto,12,0.048899695975283555,199
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,6,4,4,0.2976978537760035,199
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,12,4,4,0.5167901557704057,199
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,24,4,4,0.5243860829986439,199
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,6,6,6,0.2931211364812235,199
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,12,6,6,0.4288135749194639,199
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,24,6,6,0.3755516401010985,199
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,6,9,9,0.2192278169916939,199
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,12,9,9,0.33390698219581916,199
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,24,9,9,0.407986576860751,199
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,6,12,12,0.2722462403045794,199
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,12,12,12,0.4863760078004858,199
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,24,12,12,0.39543498420006806,199
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,6,auto,12,0.2722462403045794,199
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,12,auto,12,0.4863760078004858,199
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,24,auto,12,0.39543498420006806,199
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,6,4,4,0.5730237740100697,199
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,12,4,4,0.6194445764194293,199
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,24,4,4,0.6529730940860703,199
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,6,6,6,0.5287476542926752,199
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,12,6,6,0.5455974797934332,199
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,24,6,6,0.595888137043634,199
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,6,9,9,0.5552280829038319,199
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,12,9,9,0.617820614370807,199
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,24,9,9,0.5425444041204017,199
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,6,12,12,0.5601910498730732,199
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,12,12,12,0.6887084522065786,199
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,24,12,12,0.6308384896303505,199
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,6,auto,12,0.5601910498730732,199
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,12,auto,12,0.6887084522065786,199
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,24,auto,12,0.6308384896303505,199
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,6,4,4,1.3408738275285352,199
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,12,4,4,1.6584816834998535,199
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,24,4,4,1.6047066139085,199
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,6,6,6,1.7383390870973612,199
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,12,6,6,1.8917325644307814,199
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,24,6,6,1.831565299007159,199
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,6,9,9,1.43303161376605,199
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,12,9,9,1.743979193451635,199
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,24,9,9,1.78621226051509,199
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,6,12,12,1.5290096328583085,199
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,12,12,12,1.6323311326356076,199
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,24,12,12,1.7144485310749302,199
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,6,auto,12,1.5290096328583085,199
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,12,auto,12,1.6323311326356076,199
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,24,auto,12,1.7144485310749302,199

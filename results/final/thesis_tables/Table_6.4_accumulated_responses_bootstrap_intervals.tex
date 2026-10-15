@@ -1,0 +1,45 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Accumulated responses: 90 percent intervals from the dependence-aware bootstraps}
+  \label{tab:bootstrap-cumulative}
+  \footnotesize
+  \setstretch{1.0}
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{@{}llccc@{}}
+    \toprule
+    & & \multicolumn{3}{c}{Horizon in months} \\
+    \cmidrule(lr){3-5}
+    Response & Bootstrap & 6 & 12 & 24 \\
+    \midrule
+    house-purchase lending growth & moving block & [0.167, 0.545]$^{\dagger}$ & [0.109, 0.731]$^{\dagger}$ & [-0.078, 0.734] \\
+     & wild & [0.143, 0.644]$^{\dagger}$ & [0.151, 0.819]$^{\dagger}$ & [-0.063, 0.809] \\[0.3em]
+    pure new house-purchase loans & moving block & [-0.042, 0.082] & [-0.065, 0.091] & [-0.088, 0.073] \\
+     & wild & [-0.059, 0.101] & [-0.068, 0.107] & [-0.085, 0.063] \\[0.3em]
+    mortgage lending spread & moving block & [0.016, 0.134]$^{\dagger}$ & [0.039, 0.218]$^{\dagger}$ & [0.034, 0.267]$^{\dagger}$ \\
+     & wild & [-0.009, 0.148] & [-0.001, 0.234] & [-0.016, 0.293] \\[0.3em]
+    NFC lending spread & moving block & [-0.004, 0.081] & [0.008, 0.125]$^{\dagger}$ & [-0.011, 0.155] \\
+     & wild & [-0.031, 0.106] & [-0.024, 0.149] & [-0.040, 0.176] \\[0.3em]
+    NFC credit & moving block & [-0.005, 0.003] & [-0.008, 0.006] & [-0.013, 0.009] \\
+     & wild & [-0.008, 0.006] & [-0.012, 0.010] & [-0.018, 0.013] \\[0.3em]
+    real DAX & moving block & [-0.044, 0.011] & [-0.075, 0.000] & [-0.111, -0.022]$^{\dagger}$ \\
+     & wild & [-0.044, 0.010] & [-0.074, -0.006]$^{\dagger}$ & [-0.123, -0.011]$^{\dagger}$ \\[0.3em]
+    ECB assets & moving block & [-0.035, 0.015] & [-0.058, 0.021] & [-0.084, 0.026] \\
+     & wild & [-0.049, 0.028] & [-0.078, 0.040] & [-0.114, 0.058] \\[0.3em]
+    real wage tracker excl. one-offs & moving block & [-0.530, 0.061] & [-0.726, 0.175] & [-0.578, 0.533] \\
+     & wild & [-0.475, -0.014]$^{\dagger}$ & [-0.572, -0.001]$^{\dagger}$ & [-0.362, 0.332] \\[0.3em]
+    German industry real wage bill growth & moving block & [0.626, 2.136]$^{\dagger}$ & [0.721, 2.489]$^{\dagger}$ & [0.536, 2.458]$^{\dagger}$ \\
+     & wild & [0.403, 2.356]$^{\dagger}$ & [0.404, 2.730]$^{\dagger}$ & [0.246, 2.691]$^{\dagger}$ \\[0.3em]
+    employment expectations & moving block & [1.018, 4.632]$^{\dagger}$ & [0.579, 5.403]$^{\dagger}$ & [-0.462, 4.863] \\
+     & wild & [-0.365, 6.132] & [-0.810, 7.365] & [-1.582, 6.679] \\[0.3em]
+    \bottomrule
+  \end{tabular}
+  \vspace{0.3em}
+  \begin{minipage}{\textwidth}\footnotesize\setstretch{1.0}
+  Notes: Percentile intervals for the running sum of the normalized responses to the
+  target easing surprise from 399 joint replications that resample the residuals of all
+  six horizons together, in moving blocks of twelve months or with wild sign flips.
+  $^{\dagger}$ marks intervals that exclude zero. Compare with the HAC intervals under
+  the independence approximation in \Cref{tab:cumulative-persistence}.
+  Source: own calculations.
+  \end{minipage}
+\end{table}

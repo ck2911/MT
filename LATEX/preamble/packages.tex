@@ -1,0 +1,83 @@
+% Thesis setup with Times New Roman under XeLaTeX.
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{newtxtext}
+\else
+  \usepackage{fontspec}
+  \IfFontExistsTF{Times New Roman}
+    {\setmainfont{Times New Roman}[Ligatures=TeX]}
+    {\setmainfont{TeX Gyre Termes}[Ligatures=TeX]}
+\fi
+\usepackage[main=english,ngerman]{babel}
+\usepackage{microtype}
+
+% Page geometry and spacing.
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{tocloft}
+
+% Mathematics and notation.
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\ifPDFTeX
+  \usepackage{newtxmath}
+  \usepackage{bm}
+\else
+  \usepackage{unicode-math}
+  \IfFontExistsTF{texgyretermes-math.otf}
+    {\setmathfont{texgyretermes-math.otf}}
+    {\setmathfont{latinmodern-math.otf}}
+\fi
+
+% Figures, tables, and captions.
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{threeparttable}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{siunitx}
+
+% Text utilities.
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{xurl}
+\usepackage{csquotes}
+\usepackage{xstring} % \StrSubstitute, used by \thesisfigure to derive the PDF sibling of a PNG path.
+
+% Bibliography. Biber is configured in latexmkrc.
+% Author-year (APA) citation style, as required by the chair's guide. URLs are
+% suppressed so the reference list stays clean; DOIs are retained.
+\usepackage[
+  backend=biber,
+  style=apa,
+  sorting=nyt,
+  sortcites=true,
+  doi=true,
+  url=false,
+  isbn=false,
+  eprint=false
+]{biblatex}
+\DeclareLanguageMapping{english}{english-apa}
+
+% Single-spaced reference entries with a clear gap between them.
+\setlength{\bibitemsep}{0.65\baselineskip}
+\setlength{\bibhang}{1.2em}
+\renewcommand*{\bibfont}{\normalfont\setstretch{1.0}\selectfont}
+
+% Hyperlinks should load late; cleveref should load after hyperref.
+\usepackage{hyperref}
+\usepackage[nameinlink,noabbrev]{cleveref}
+
+% Link colours: blue for internal navigation, purple for citations.
+\definecolor{linknavy}{RGB}{0,51,153}
+\definecolor{citeplum}{RGB}{112,0,124}
+\definecolor{urlteal}{RGB}{0,90,160}

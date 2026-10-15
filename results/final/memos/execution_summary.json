@@ -1,0 +1,132 @@
+{
+  "finished_at": "2026-10-14T23:30:39.338757+00:00",
+  "canonical_notebook": "1. thesis_master_notebook.ipynb",
+  "canonical_output_root": "results/final",
+  "monthly_first_stage_top_bridge": "d_dfr_eop via target_factor_monthly_easing (F=17.07209368475478, status=fragile_candidate)",
+  "monthly_reduced_form_cells": 660,
+  "proxy_validation_candidates": 18,
+  "monthly_stability_cells": 60,
+  "steps": [
+    {
+      "name": "Rebuild processed EU/DE data",
+      "returncode": 0,
+      "started_at": "2026-10-14T23:29:36.277084+00:00",
+      "finished_at": "2026-10-14T23:29:38.414621+00:00",
+      "command": [
+        "Rscript",
+        "src/data/build_final_dataset.R"
+      ]
+    },
+    {
+      "name": "Build ECB external-instrument shocks",
+      "returncode": 0,
+      "started_at": "2026-10-14T23:29:38.414682+00:00",
+      "finished_at": "2026-10-14T23:29:43.642924+00:00",
+      "command": [
+        "python3",
+        "-m",
+        "src.data.ecb_monetary_surprises"
+      ]
+    },
+    {
+      "name": "Build monthly model dataset",
+      "returncode": 0,
+      "started_at": "2026-10-14T23:29:43.645280+00:00",
+      "finished_at": "2026-10-14T23:29:45.824586+00:00",
+      "command": [
+        "Rscript",
+        "src/data/build_monthly_model_dataset.R"
+      ]
+    },
+    {
+      "name": "Run monthly first-stage tournament",
+      "returncode": 0,
+      "started_at": "2026-10-14T23:29:45.824640+00:00",
+      "finished_at": "2026-10-14T23:29:52.707927+00:00",
+      "command": [
+        "python3",
+        "scripts/run_first_stage_tournament.py"
+      ]
+    },
+    {
+      "name": "Run information-effect screening",
+      "returncode": 0,
+      "started_at": "2026-10-14T23:29:52.707972+00:00",
+      "finished_at": "2026-10-14T23:29:53.048081+00:00",
+      "command": [
+        "python3",
+        "scripts/run_information_effect_screening.py"
+      ]
+    },
+    {
+      "name": "Screen monthly proxies",
+      "returncode": 0,
+      "started_at": "2026-10-14T23:29:53.048128+00:00",
+      "finished_at": "2026-10-14T23:29:56.883380+00:00",
+      "command": [
+        "python3",
+        "scripts/run_proxy_validation.py"
+      ]
+    },
+    {
+      "name": "Run monthly reduced-form LP layer",
+      "returncode": 0,
+      "started_at": "2026-10-14T23:29:56.883422+00:00",
+      "finished_at": "2026-10-14T23:30:23.664434+00:00",
+      "command": [
+        "python3",
+        "scripts/run_monthly_reduced_form_lp.py"
+      ]
+    },
+    {
+      "name": "Run residual diagnostics on the baseline local projections",
+      "returncode": 0,
+      "started_at": "2026-10-14T23:30:23.664510+00:00",
+      "finished_at": "2026-10-14T23:30:25.547421+00:00",
+      "command": [
+        "python3",
+        "scripts/run_residual_diagnostics.py"
+      ]
+    },
+    {
+      "name": "Render thesis figures in the shared visual style",
+      "returncode": 0,
+      "started_at": "2026-10-14T23:30:25.547461+00:00",
+      "finished_at": "2026-10-14T23:30:33.963848+00:00",
+      "command": [
+        "python3",
+        "scripts/rebuild_figures.py"
+      ]
+    },
+    {
+      "name": "Render enhancement figures",
+      "returncode": 0,
+      "started_at": "2026-10-14T23:30:33.963947+00:00",
+      "finished_at": "2026-10-14T23:30:36.305616+00:00",
+      "command": [
+        "Rscript",
+        "LATEX/scripts/create_enhancement_figures.R"
+      ]
+    },
+    {
+      "name": "Generate thesis-facing LaTeX tables",
+      "returncode": 0,
+      "started_at": "2026-10-14T23:30:36.305668+00:00",
+      "finished_at": "2026-10-14T23:30:36.469036+00:00",
+      "command": [
+        "python3",
+        "LATEX/scripts/generate_thesis_tables.py"
+      ]
+    },
+    {
+      "name": "Check final empirical outputs",
+      "returncode": 0,
+      "started_at": "2026-10-14T23:30:36.481217+00:00",
+      "finished_at": "2026-10-14T23:30:39.331482+00:00",
+      "command": [
+        "python3",
+        "scripts/final_empirical_audit.py"
+      ]
+    }
+  ]
+}

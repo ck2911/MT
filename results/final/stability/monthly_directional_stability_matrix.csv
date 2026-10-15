@@ -1,0 +1,61 @@
+response,response_label,channel,horizon_months,clean_events_only,contaminated_events_only,exclude_covid,exclude_crisis_windows,exclude_extreme_shock_outliers,exclude_qe_launch,full
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,0,positive,positive,positive,positive,positive,positive,positive
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,1,positive,positive,positive,positive,positive,positive,positive
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,3,positive,positive,positive,positive,positive,positive,positive
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,6,positive,positive,positive,positive,positive,positive,positive
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,12,positive,positive,positive,positive,positive,positive,positive
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,24,negative,negative,negative,positive,negative,negative,negative
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,0,positive,positive,positive,positive,positive,positive,positive
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,1,positive,positive,positive,positive,positive,positive,positive
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,3,positive,positive,positive,positive,positive,positive,positive
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,6,positive,positive,positive,positive,positive,positive,positive
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,12,positive,positive,positive,positive,positive,positive,positive
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,24,positive,positive,positive,positive,positive,positive,positive
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,0,positive,negative,negative,positive,negative,positive,positive
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,1,positive,positive,positive,positive,positive,positive,positive
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,3,negative,positive,positive,positive,positive,positive,positive
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,6,positive,positive,positive,positive,positive,positive,positive
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,12,positive,positive,positive,positive,positive,positive,positive
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,24,positive,positive,positive,positive,positive,positive,positive
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,0,positive,negative,negative,negative,positive,negative,negative
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,1,positive,negative,negative,negative,positive,negative,negative
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,3,negative,negative,negative,negative,negative,negative,negative
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,6,negative,negative,positive,negative,negative,negative,negative
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,12,positive,negative,positive,positive,negative,negative,negative
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,24,positive,positive,negative,positive,positive,positive,positive
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,0,positive,positive,positive,positive,positive,positive,positive
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,1,positive,positive,positive,positive,positive,positive,positive
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,3,positive,positive,positive,positive,positive,positive,positive
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,6,positive,positive,negative,positive,positive,positive,positive
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,12,positive,negative,negative,negative,positive,positive,positive
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,24,negative,negative,negative,positive,negative,negative,negative
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,0,positive,positive,positive,positive,positive,positive,positive
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,1,positive,positive,positive,positive,positive,positive,positive
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,3,positive,positive,positive,positive,positive,positive,positive
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,6,positive,positive,positive,positive,positive,positive,positive
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,12,positive,negative,positive,negative,positive,positive,positive
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,24,negative,negative,negative,positive,negative,negative,negative
+ln_dax_real_de,real DAX,financial_market,0,positive,negative,negative,positive,negative,negative,negative
+ln_dax_real_de,real DAX,financial_market,1,positive,negative,negative,positive,negative,negative,negative
+ln_dax_real_de,real DAX,financial_market,3,negative,negative,negative,negative,negative,negative,negative
+ln_dax_real_de,real DAX,financial_market,6,negative,negative,negative,negative,negative,negative,negative
+ln_dax_real_de,real DAX,financial_market,12,negative,negative,negative,negative,negative,negative,negative
+ln_dax_real_de,real DAX,financial_market,24,negative,negative,negative,negative,negative,negative,negative
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,0,negative,negative,negative,negative,negative,negative,negative
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,1,positive,negative,positive,negative,negative,negative,negative
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,3,negative,negative,positive,positive,negative,negative,negative
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,6,negative,negative,negative,positive,negative,negative,negative
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,12,negative,negative,negative,positive,negative,negative,negative
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,24,negative,negative,positive,positive,positive,negative,negative
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,0,positive,negative,negative,negative,positive,negative,negative
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,1,positive,positive,positive,positive,positive,positive,positive
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,3,positive,negative,negative,negative,positive,positive,positive
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,6,negative,positive,positive,positive,positive,positive,positive
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,12,negative,positive,positive,negative,positive,negative,negative
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,24,negative,negative,positive,negative,negative,negative,negative
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,0,negative,positive,positive,positive,positive,negative,negative
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,1,negative,positive,positive,negative,negative,negative,negative
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,3,negative,positive,positive,positive,positive,negative,negative
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,6,negative,positive,positive,positive,positive,positive,positive
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,12,negative,positive,positive,negative,positive,positive,positive
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,24,negative,negative,negative,negative,positive,negative,negative

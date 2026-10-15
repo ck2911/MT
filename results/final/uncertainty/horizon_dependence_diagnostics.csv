@@ -1,0 +1,11 @@
+response,response_label,channel,nobs_common_horizon_sample,mean_adjacent_horizon_residual_corr,max_abs_horizon_residual_corr,horizon_grid,diagnostic_note
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,222,0.7744651407112777,0.8171830751155738,"0,1,3,6,12,24",Residual correlations motivate joint horizon bootstrap cumulative intervals.
+ln_dax_real_de,real DAX,financial_market,222,0.6471720424017046,0.7195911947865751,"0,1,3,6,12,24",Residual correlations motivate joint horizon bootstrap cumulative intervals.
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,222,0.7264532049886461,0.8149202550299279,"0,1,3,6,12,24",Residual correlations motivate joint horizon bootstrap cumulative intervals.
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,222,0.6533895251136826,0.6979033145269372,"0,1,3,6,12,24",Residual correlations motivate joint horizon bootstrap cumulative intervals.
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,222,0.8222168872833008,0.8667919451625686,"0,1,3,6,12,24",Residual correlations motivate joint horizon bootstrap cumulative intervals.
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,222,0.761435206728325,0.8621143123755656,"0,1,3,6,12,24",Residual correlations motivate joint horizon bootstrap cumulative intervals.
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,73,0.4310096644171956,0.5629482910817614,"0,1,3,6,12,24",Residual correlations motivate joint horizon bootstrap cumulative intervals.
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,128,0.6856203092565224,0.8227864039970503,"0,1,3,6,12,24",Residual correlations motivate joint horizon bootstrap cumulative intervals.
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,211,0.4069418776689161,0.5212337464570072,"0,1,3,6,12,24",Residual correlations motivate joint horizon bootstrap cumulative intervals.
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,222,0.5448099809134196,0.7503645441166895,"0,1,3,6,12,24",Residual correlations motivate joint horizon bootstrap cumulative intervals.

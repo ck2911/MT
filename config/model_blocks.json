@@ -1,0 +1,7 @@
+{
+  "endogenous_core": ["ln_ecb_assets_ea_stock", "ln_hh_loans_ea_stock", "ln_nfc_loans_ea_stock", "ln_house_price_de_real", "ln_compensation_ea20_real"],
+  "endogenous_expanded": ["ln_ecb_assets_ea_stock", "ln_hh_loans_ea_stock", "ln_nfc_loans_ea_stock", "ln_house_price_de_real", "ln_compensation_ea20_real", "ln_dax_real_de"],
+  "exogenous_baseline": ["wx_shadow_rate", "credit_standards_enterprise", "credit_standards_household", "dummy_gfc_2008q4", "dummy_euro_crisis_2012q3", "dummy_qe_launch_2015q1", "dummy_covid_2020q2"],
+  "exogenous_robustness": ["dfr_eop", "credit_standards_enterprise", "credit_standards_household", "dummy_gfc_2008q4", "dummy_euro_crisis_2012q3", "dummy_qe_launch_2015q1", "dummy_covid_2020q2", "dummy_2022_tightening_q3"],
+  "external_instrument_placeholder": "ecb_monetary_surprise"
+}

@@ -1,0 +1,11 @@
+response,response_label,channel,modal_direction,sign_consistency,cumulative_direction_consistency,peak_response_timing_iqr,response_decay_ratio_abs_h24_to_h6,estimated_cells,interpretation
+ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,positive,0.8571428571428571,1.0,6.0,0.721821899628559,42,"directional robustness, not exact magnitude invariance"
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,positive,1.0,1.0,0.0,0.8355434546672271,42,"directional robustness, not exact magnitude invariance"
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,positive,0.9047619047619048,1.0,0.0,0.6152532958737822,42,"directional robustness, not exact magnitude invariance"
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,negative,0.6666666666666666,0.8571428571428571,12.0,1.8541320343096417,42,"directional robustness, not exact magnitude invariance"
+eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,positive,0.7619047619047619,0.7857142857142857,23.0,1.2838223253878904,42,"directional robustness, not exact magnitude invariance"
+eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,positive,0.8095238095238095,1.0,2.5,0.30411412151025213,42,"directional robustness, not exact magnitude invariance"
+ln_dax_real_de,real DAX,financial_market,negative,0.9047619047619048,1.0,0.0,3.1103316951731372,42,"directional robustness, not exact magnitude invariance"
+ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,negative,0.7857142857142857,0.8571428571428571,12.0,3.13745990677725,42,"directional robustness, not exact magnitude invariance"
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,positive,0.5476190476190477,0.7857142857142857,18.0,1.4148951852065441,42,"directional robustness, not exact magnitude invariance"
+ln_nfc_loans_ea_stock,NFC credit,financial_credit,positive,0.5238095238095238,0.5,10.5,1.8009861254052195,42,"directional robustness, not exact magnitude invariance"

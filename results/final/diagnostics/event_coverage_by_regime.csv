@@ -1,0 +1,16 @@
+regime,jk_screen_classification,event_count,share_within_regime
+covid,potential_information_shock,9,0.45
+covid,potential_pure_monetary_shock,11,0.55
+euro_crisis,ambiguous_zero_response,1,0.016666666666666666
+euro_crisis,potential_information_shock,25,0.4166666666666667
+euro_crisis,potential_pure_monetary_shock,34,0.5666666666666667
+gfc,potential_information_shock,11,0.5789473684210527
+gfc,potential_pure_monetary_shock,8,0.42105263157894735
+pre_gfc,potential_information_shock,37,0.47435897435897434
+pre_gfc,potential_pure_monetary_shock,41,0.5256410256410257
+qe_era,ambiguous_zero_response,7,0.175
+qe_era,potential_information_shock,14,0.35
+qe_era,potential_pure_monetary_shock,19,0.475
+tightening_regime,ambiguous_zero_response,1,0.037037037037037035
+tightening_regime,potential_information_shock,6,0.2222222222222222
+tightening_regime,potential_pure_monetary_shock,20,0.7407407407407407

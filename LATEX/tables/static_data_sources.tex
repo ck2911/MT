@@ -1,0 +1,48 @@
+\begingroup
+\setstretch{1.0}\footnotesize
+\setlength{\LTpre}{0.6em}
+\setlength{\LTpost}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.27\textwidth}>{\raggedright\arraybackslash}p{0.52\textwidth}>{\raggedright\arraybackslash}p{0.14\textwidth}@{}}
+  \caption{Data sources, series codes, and access dates}
+  \label{tab:data-sources}\\
+  \toprule
+  Variable & Source and series code & Accessed \\
+  \midrule
+  \endfirsthead
+  \toprule
+  Variable & Source and series code & Accessed \\
+  \midrule
+  \endhead
+  \bottomrule
+  \endlastfoot
+  \multicolumn{3}{@{}l}{\textit{Policy shock and announcement surprises}} \\
+  Target, timing, FG, and QE factors & \textcite{RagusaFactors}, factor vintage of 30 Oct 2025, built with the method of \textcite{Altavilla2019}\sym{a} & 15 May 2026 \\
+  Announcement-window OIS and STOXX~50 surprises & \textcite{ECBEAMPD}\sym{a} & 15 May 2026 \\
+  \multicolumn{3}{@{}l}{\textit{Policy rate and liquidity}} \\
+  Deposit facility rate, daily & ECB, \texttt{FM.D.U2.EUR.4F.KR.DFR.LEV}, retrieved as \texttt{ECBDFR} \parencite{FREDECBDFR}\sym{a} & 15 May 2026 \\
+  Eurosystem total assets, weekly & ECB, \texttt{ILM.W.U2.C.T000000.Z5.Z01}, retrieved as \texttt{ECBASSETSW} \parencite{FREDECBASSETSW}\sym{a} & 15 May 2026 \\
+  Wu--Xia shadow rate & \textcite{WuXiaShadowRateData}, method of \textcite{WuXia2020}\sym{a} & 15 May 2026 \\
+  \multicolumn{3}{@{}l}{\textit{Lending conditions and credit} \parencite{ECBDataPortal}} \\
+  Mortgage lending rate & \texttt{MIR.M.U2.B.A2C.A.R.A.2250.EUR.N}\sym{a} & 16 May 2026 \\
+  NFC lending rate & \texttt{MIR.M.U2.B.A2A.A.R.A.2240.EUR.N}\sym{b} & 16 May 2026 \\
+  House-purchase lending growth & \texttt{BSI.M.U2.Y.U.A22.A.I.U2.2250.Z01.A}\sym{a} & 16 May 2026 \\
+  Pure new house-purchase loans & \texttt{MIR.M.U2.B.A2C.A.B.A.2250.EUR.P}\sym{a} & 16 May 2026 \\
+  Household loan stock & \texttt{BSI.M.U2.N.A.A20T.A.1.U2.2250.Z01.E}\sym{b} & 15 May 2026 \\
+  NFC loan stock & \texttt{BSI.M.U2.N.A.A20T.A.1.U2.2240.Z01.E}\sym{b} & 15 May 2026 \\
+  Bank Lending Survey standards and demand & \texttt{BLS.Q.U2.ALL.\{Z.H.H, O.E.Z, Z.H.C\}.B3.\{ST.S, ZZ.D\}.WFNET}\sym{a} & 16 May 2026 \\
+  \multicolumn{3}{@{}l}{\textit{Asset prices and deflators}} \\
+  DAX close, monthly & \textcite{YahooDAX}, \texttt{\textasciicircum GDAXI}\sym{a} & 15 May 2026 \\
+  German residential property prices & BIS, \texttt{Q:DE:N:628}, retrieved as \texttt{QDEN628BIS} \parencite{FREDQDEN628BIS}\sym{b} & 15 May 2026 \\
+  HICP, Germany, EA20, and euro area & \textcite{EurostatHICP}, index 2005 = 100, all items\sym{a} & 15 May 2026 \\
+  \multicolumn{3}{@{}l}{\textit{Compensation and labour market}} \\
+  ECB wage tracker (ex one-offs, headline, unsmoothed) & \texttt{EWT.M.U2.N.WT.\{INWX, INWS, INWR\}.\_T.4F0.GY} \parencite{ECBDataPortal}\sym{b} & 16 May 2026 \\
+  Compensation per employee, EA20 & \texttt{MNA.Q.Y.I9.W2.S1.S1.\_Z.COM\_PS.\_Z.\_T.\_Z.IX.V.N} \parencite{ECBDataPortal}\sym{b} & 15 May 2026 \\
+  Consumer income and unemployment expectations & \texttt{CES.M.Z18.ALL.T.\{C3220, C4031\}.NUM\_VAR.WM} \parencite{ECBDataPortal}\sym{a} & 16 May 2026 \\
+  German industry wage bill & \texttt{sts\_inlb\_m}, DE, B--E36, NSA \parencite{EurostatDatabase}\sym{a} & 16 May 2026 \\
+  German retail trade volume & \texttt{sts\_trtu\_m}, DE, volume of sales \parencite{EurostatDatabase} & 15 May 2026 \\
+  Employment expectations, EA20 & \texttt{ei\_bsee\_m\_r2}, EEI and services \parencite{EurostatDatabase}\sym{a} & 16 May 2026 \\
+  Unemployment rate, EA21 & \texttt{une\_rt\_m}, seasonally adjusted \parencite{EurostatDatabase}\sym{b} & 16 May 2026 \\
+\end{longtable}
+\vspace{-0.5em}
+{\footnotesize Notes: \sym{a}~Identical to the live source, at the precision stored in the raw file, when re-checked on 27 September 2026. \sym{b}~Same series, revised by the provider after the access date. The thesis uses the vintage downloaded on the access date. Source: own compilation.\par}
+\endgroup

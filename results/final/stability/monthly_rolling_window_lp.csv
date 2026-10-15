@@ -1,0 +1,839 @@
+response,response_label,horizon_months,window_start,window_end,coefficient,direction_sign,nobs
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2005-01,2012-01,0.1524471400798031,positive,75
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2005-02,2012-02,0.15866511031480673,positive,76
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2005-03,2012-03,0.21515944490538183,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2005-04,2012-04,0.38618016673776523,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2005-05,2012-05,0.21795426695388942,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2005-06,2012-06,0.26719205811424274,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2005-07,2012-07,0.2723721145407684,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2005-08,2012-08,0.28029771925739616,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2005-09,2012-09,0.2739790501622994,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2005-10,2012-10,0.2843452322863317,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2005-11,2012-11,0.27776521342298605,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2005-12,2012-12,0.26990635896725257,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2006-01,2013-01,0.22696514256604366,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2006-02,2013-02,0.22566899399857127,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2006-03,2013-03,0.2268383395996696,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2006-04,2013-04,0.22857334697312928,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2006-05,2013-05,0.2252131507960696,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2006-06,2013-06,0.2277817924625299,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2006-07,2013-07,0.22952432231377048,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2006-08,2013-08,0.23137002398468953,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2006-09,2013-09,0.229764364420715,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2006-10,2013-10,0.22923394119508148,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2006-11,2013-11,0.23071168564959918,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2006-12,2013-12,0.23427797965689157,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2007-01,2014-01,0.24101072580946442,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2007-02,2014-02,0.2403222485684672,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2007-03,2014-03,0.23809133545892625,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2007-04,2014-04,0.24437765610384052,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2007-05,2014-05,0.24405875474468766,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2007-06,2014-06,0.24504234848603407,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2007-07,2014-07,0.24913520128140124,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2007-08,2014-08,0.2529114181443853,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2007-09,2014-09,0.24198596510107986,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2007-10,2014-10,0.23246634412523445,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2007-11,2014-11,0.23858058563836135,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2007-12,2014-12,0.22785866028345528,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2008-01,2015-01,0.2253945968202103,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2008-02,2015-02,0.22419693577876035,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2008-03,2015-03,0.1845800262079528,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2008-04,2015-04,0.18217250550205283,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2008-05,2015-05,0.18159022774662725,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2008-06,2015-06,0.1821012134607195,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2008-07,2015-07,0.17907490583257576,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2008-08,2015-08,0.17924300672980803,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2008-09,2015-09,0.18739909003134017,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2008-10,2015-10,0.1753744693231479,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2008-12,2015-11,0.14883598547454954,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2009-01,2015-12,0.1291430422863754,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2009-02,2016-01,0.1365474273245058,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2009-03,2016-02,0.13317151064632116,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2009-04,2016-03,0.1210558846835766,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2009-05,2016-04,0.12235344014970753,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2009-06,2016-05,0.13224654000656957,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2009-07,2016-06,0.12763964638094008,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2009-08,2016-07,0.14181747762647387,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2009-09,2016-08,0.15352902057324477,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2009-10,2016-09,0.17851350054306908,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2009-11,2016-10,0.17805625997859456,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2009-12,2016-11,0.1702931438872475,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2010-01,2016-12,0.16068422795483855,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2010-02,2017-01,0.15785465879144983,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2010-03,2017-02,0.15212042843631413,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2010-04,2017-03,0.1428333614749526,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2010-05,2017-04,0.13798981106803063,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2010-06,2017-05,0.14101234821232483,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2010-07,2017-06,0.13789121085762532,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2010-08,2017-07,0.13318070610834137,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2010-09,2017-08,0.1283118881704336,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2010-10,2017-09,0.12564273883389057,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2010-11,2017-10,0.11314596134787072,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2010-12,2017-11,0.11024136441956026,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2011-01,2017-12,0.09957934580865635,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2011-02,2018-01,0.0845945782778864,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2011-03,2018-02,0.07886618381671237,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2011-04,2018-03,0.07411803105076743,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2011-05,2018-04,0.06988697011455224,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2011-06,2018-05,0.06838889804864699,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2011-07,2018-06,0.06866783616007362,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2011-08,2018-07,0.07161329981436042,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2011-09,2018-08,0.07569281398232268,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2011-10,2018-09,0.13190060168422243,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2011-11,2018-10,0.08588844401849463,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2011-12,2018-11,0.08952639970335133,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2012-01,2018-12,0.08807230425234483,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2012-02,2019-01,0.08880046463415153,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2012-03,2019-02,0.09080551669077949,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2012-04,2019-03,0.09072395412799233,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2012-05,2019-04,0.09704537941806039,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2012-06,2019-05,0.13120726370613695,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2012-07,2019-06,-0.07158974356094094,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2012-08,2019-07,-0.07548146336883238,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2012-09,2019-08,-0.06637719889857,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2012-10,2019-09,-0.061398298320283644,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2012-11,2019-10,-0.06177271813788972,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2012-12,2019-11,-0.06250561831331228,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2013-01,2019-12,-0.0630191500065928,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2013-02,2020-01,-0.08970328583862439,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2013-03,2020-02,-0.08694770811077347,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2013-04,2020-03,-0.10311301280663171,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2013-05,2020-04,-0.10324494119244844,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2013-06,2020-05,-0.10215688701238079,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2013-07,2020-06,-0.10496085790850136,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2013-08,2020-07,-0.10922033018803734,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2013-09,2020-08,-0.11146724585720641,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2013-10,2020-09,-0.08858744118792733,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2013-11,2020-10,-0.08694035680667216,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2013-12,2020-11,-0.0828481295785042,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2014-01,2020-12,-0.07909607062685765,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2014-02,2021-01,-0.07519255037832503,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2014-03,2021-02,-0.07407240667980337,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2014-04,2021-03,-0.0768670467349387,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2014-05,2021-04,-0.0799243976014986,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2014-06,2021-05,-0.07495688257422128,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2014-07,2021-06,-0.0751378489692604,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2014-08,2021-07,-0.06571959889296809,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2014-09,2021-08,-0.02305144066400799,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2014-10,2021-09,-0.015615279737068987,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2014-11,2021-10,-0.008879613944592461,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2014-12,2021-11,-0.00957076414649174,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2015-01,2021-12,-0.0073017321487358795,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2015-02,2022-01,-0.008167865746344588,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2015-03,2022-02,-0.030217473244066533,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2015-04,2022-03,-0.02069061900310033,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2015-05,2022-04,-0.0053902144418824524,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2015-06,2022-05,-0.0056004029896569415,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2015-07,2022-06,-0.007054941481911413,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2015-08,2022-07,-0.009830030907841824,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2015-09,2022-08,-0.020130331160458127,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2015-10,2022-09,-0.027474018845226295,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2015-11,2022-10,-0.03087865354636897,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2015-12,2022-11,-0.0002559551355769189,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2016-01,2022-12,-0.01692649185909964,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2016-02,2023-01,0.03581084563052089,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2016-03,2023-02,0.03846512702433805,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2016-04,2023-03,0.023110897807122572,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2016-05,2023-04,0.025789788888691746,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2016-06,2023-05,0.02455366361733708,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2016-07,2023-06,0.06873142749269376,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2016-08,2023-07,0.06883090690713849,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2016-09,2023-08,0.062361818377123776,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2016-10,2023-09,-0.03747384203890146,negative,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2016-11,2023-10,0.0018789479269077055,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2016-12,2023-11,0.05491049950553674,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2017-01,2023-12,0.05843594159966701,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2017-02,2024-01,0.06689005819869634,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2017-03,2024-02,0.07059509583323736,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2017-04,2024-03,0.040456218029177114,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2017-05,2024-04,0.046563029720684594,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2017-06,2024-05,0.05404527585903455,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2017-07,2024-06,0.060339849451426945,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2017-08,2024-07,0.06307239788681986,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2017-09,2024-08,0.07372379485744206,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2017-10,2024-09,0.08021060772456078,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2017-11,2024-10,0.07772533624438287,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2017-12,2024-11,0.07480417943049085,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2018-01,2024-12,0.07810609265498553,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2018-02,2025-01,0.07516607922733419,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2018-03,2025-02,0.08000507443776465,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2018-04,2025-03,0.08781830546516459,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2018-05,2025-04,0.0860362314878414,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2018-06,2025-05,0.09314563293546745,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2018-07,2025-06,0.08538160633208233,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2018-08,2025-07,0.0904586739825623,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2018-09,2025-08,0.09356625629430566,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2018-10,2025-09,0.0918315446064421,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,6,2018-11,2025-10,0.09135441250238398,positive,77
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2005-01,2012-01,-0.1018974049343842,negative,69
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2005-02,2012-02,-0.12328031754079895,negative,70
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2005-03,2012-03,-0.13824771863341626,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2005-04,2012-04,-0.10236048722220915,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2005-05,2012-05,-0.1314531357436378,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2005-06,2012-06,-0.09355531820471569,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2005-07,2012-07,-0.05945483926236348,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2005-08,2012-08,-0.03694169937275553,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2005-09,2012-09,0.03127253921128791,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2005-10,2012-10,0.19069286406650493,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2005-11,2012-11,0.11323265423324479,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2005-12,2012-12,0.14366361571828293,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2006-01,2013-01,0.1432369486988038,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2006-02,2013-02,0.15084074101048828,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2006-03,2013-03,0.14665238800371397,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2006-04,2013-04,0.14108939405089388,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2006-05,2013-05,0.12742122394777555,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2006-06,2013-06,0.133672270668674,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2006-07,2013-07,0.036410721046403034,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2006-08,2013-08,0.05270987439275343,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2006-09,2013-09,0.06800015777621969,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2006-10,2013-10,0.06891492155916404,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2006-11,2013-11,0.06674062070321726,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2006-12,2013-12,0.07459729549488583,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2007-01,2014-01,0.08853009896189366,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2007-02,2014-02,0.0857143382801174,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2007-03,2014-03,0.07444370140944986,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2007-04,2014-04,0.08668489282428354,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2007-05,2014-05,0.10556337519576381,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2007-06,2014-06,0.1094203342216022,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2007-07,2014-07,0.11740103012950476,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2007-08,2014-08,0.11980856703701974,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2007-09,2014-09,0.09205600013956276,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2007-10,2014-10,0.06984762750662998,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2007-11,2014-11,0.05570621998184896,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2007-12,2014-12,0.05881040388026665,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2008-01,2015-01,0.05985534647532134,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2008-02,2015-02,0.06940996996827861,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2008-03,2015-03,0.07842075598626348,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2008-04,2015-04,0.08471200719205527,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2008-05,2015-05,0.09242106194260678,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2008-06,2015-06,0.07341392067611648,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2008-07,2015-07,0.07299513921275257,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2008-08,2015-08,0.07500152294709408,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2008-09,2015-09,0.08899899730051342,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2008-10,2015-10,0.07993653044601519,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2008-12,2015-11,0.013847974199495633,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2009-01,2015-12,0.0822794829621376,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2009-02,2016-01,0.11082453510457249,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2009-03,2016-02,0.10713295619817427,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2009-04,2016-03,0.097472602490379,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2009-05,2016-04,0.08879480608898599,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2009-06,2016-05,0.10026841534070906,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2009-07,2016-06,0.09037128149290054,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2009-08,2016-07,0.10861820907044396,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2009-09,2016-08,0.1149965334214278,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2009-10,2016-09,0.13498340764136443,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2009-11,2016-10,0.13665961569233762,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2009-12,2016-11,0.1319655101468687,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2010-01,2016-12,0.10344258032083548,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2010-02,2017-01,0.10264781803547651,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2010-03,2017-02,0.09709804154718764,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2010-04,2017-03,0.07544884879839234,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2010-05,2017-04,0.06450076027304377,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2010-06,2017-05,0.07005377875319331,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2010-07,2017-06,0.06575022806664982,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2010-08,2017-07,0.06036321034199317,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2010-09,2017-08,0.054636604536021954,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2010-10,2017-09,0.053121020850608776,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2010-11,2017-10,0.0443746120312822,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2010-12,2017-11,0.04301229213958978,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2011-01,2017-12,0.04136114170060946,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2011-02,2018-01,0.040846778414037756,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2011-03,2018-02,0.043876400341168374,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2011-04,2018-03,0.04843477457985943,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2011-05,2018-04,0.04956382529102733,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2011-06,2018-05,0.050530843026491516,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2011-07,2018-06,0.05365629186424431,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2011-08,2018-07,0.05682713783763482,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2011-09,2018-08,0.06550324712027038,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2011-10,2018-09,0.22901183560140548,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2011-11,2018-10,0.07078397844697137,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2011-12,2018-11,0.09248023368736794,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2012-01,2018-12,0.08879131437115452,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2012-02,2019-01,0.08490381973037125,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2012-03,2019-02,0.10515510569572997,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2012-04,2019-03,0.10311126889625925,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2012-05,2019-04,0.11455151328490021,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2012-06,2019-05,0.15897925351372838,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2012-07,2019-06,-0.062492694807121205,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2012-08,2019-07,-0.062496209055308796,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2012-09,2019-08,-0.06109252402755829,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2012-10,2019-09,-0.056472118609657534,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2012-11,2019-10,-0.05752135643073294,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2012-12,2019-11,-0.05890258123354108,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2013-01,2019-12,-0.04950305677182972,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2013-02,2020-01,-0.04986825176825496,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2013-03,2020-02,-0.047511211172833134,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2013-04,2020-03,-0.050139173283056185,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2013-05,2020-04,-0.046983175561543675,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2013-06,2020-05,-0.04370820803360666,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2013-07,2020-06,-0.03879907344223271,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2013-08,2020-07,-0.05951181397871508,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2013-09,2020-08,-0.05480966617635872,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2013-10,2020-09,-0.0786558162710409,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2013-11,2020-10,-0.05333115422177585,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2013-12,2020-11,-0.04629643942562614,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2014-01,2020-12,-0.033045066727191694,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2014-02,2021-01,-0.021999360284059744,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2014-03,2021-02,-0.02915770023573544,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2014-04,2021-03,-0.07901247836272046,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2014-05,2021-04,-0.08997717675484528,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2014-06,2021-05,-0.08457329389670286,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2014-07,2021-06,-0.0746078668315569,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2014-08,2021-07,-0.05889820720812876,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2014-09,2021-08,-0.0841573698082586,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2014-10,2021-09,-0.08498705072178768,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2014-11,2021-10,-0.07075213776146284,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2014-12,2021-11,-0.06608346360536774,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2015-01,2021-12,-0.06363779528434994,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2015-02,2022-01,-0.054226859708935066,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2015-03,2022-02,-0.07240563747892509,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2015-04,2022-03,-0.049421963792591624,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2015-05,2022-04,-0.029107227734289337,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2015-06,2022-05,-0.027920431330235265,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2015-07,2022-06,-0.03418886807785425,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2015-08,2022-07,-0.044005654465232094,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2015-09,2022-08,-0.05794050630777537,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2015-10,2022-09,-0.07240449475641766,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2015-11,2022-10,-0.07268137968328915,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2015-12,2022-11,-0.02076478049051728,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2016-01,2022-12,-0.020548568974880187,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2016-02,2023-01,-0.02145211077805059,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2016-03,2023-02,-0.02956862342963009,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2016-04,2023-03,-0.04236580351474201,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2016-05,2023-04,-0.04699558920933166,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2016-06,2023-05,-0.009679707122799289,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2016-07,2023-06,-0.0841931243111577,negative,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2016-08,2023-07,0.05997600069009345,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2016-09,2023-08,0.058497882157139185,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2016-10,2023-09,0.025292055548425046,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2016-11,2023-10,0.028957256422763637,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2016-12,2023-11,0.01798420156447933,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2017-01,2023-12,0.12902871670502467,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2017-02,2024-01,0.1977505474485459,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2017-03,2024-02,0.21443639424742172,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2017-04,2024-03,0.04788392499708604,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2017-05,2024-04,0.08840033544491355,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2017-06,2024-05,0.15181454904729808,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2017-07,2024-06,0.1601571569146708,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2017-08,2024-07,0.158155595841576,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2017-09,2024-08,0.17752517307642587,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2017-10,2024-09,0.16083474037794745,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2017-11,2024-10,0.15611110175438836,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2017-12,2024-11,0.1500282113354921,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2018-01,2024-12,0.15705294139099185,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2018-02,2025-01,0.14400668788232215,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2018-03,2025-02,0.16011391199053646,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2018-04,2025-03,0.1662022267353421,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2018-05,2025-04,0.16222393464546572,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2018-06,2025-05,0.16571039516221595,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2018-07,2025-06,0.16301443622298253,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2018-08,2025-07,0.1645353489427002,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2018-09,2025-08,0.17021773650141628,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2018-10,2025-09,0.17540060272567576,positive,71
+ecb_house_purchase_growth_yoy,house-purchase lending growth,12,2018-11,2025-10,0.17511351263426114,positive,71
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,6,2017-08,2024-07,0.020375573048012366,positive,76
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,6,2017-09,2024-08,0.020242737505550727,positive,77
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,6,2017-10,2024-09,0.021222113829875825,positive,77
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,6,2017-11,2024-10,0.020484885270485576,positive,77
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,6,2017-12,2024-11,0.019874621286529767,positive,77
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,6,2018-01,2024-12,0.0195224360776611,positive,77
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,6,2018-02,2025-01,0.01892818678727929,positive,77
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,6,2018-03,2025-02,0.023077206291852188,positive,77
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,6,2018-04,2025-03,0.025210251883663725,positive,77
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,6,2018-05,2025-04,0.024939791007294845,positive,77
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,6,2018-06,2025-05,0.025661540225404924,positive,77
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,6,2018-07,2025-06,0.023471885029532482,positive,77
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,6,2018-08,2025-07,0.024277724794423514,positive,77
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,6,2018-09,2025-08,0.02670190087502658,positive,77
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,6,2018-10,2025-09,0.026790709213031158,positive,77
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,6,2018-11,2025-10,0.026673928416314416,positive,77
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,12,2017-08,2024-07,-0.0008621548843624283,negative,70
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,12,2017-09,2024-08,-0.0010881025461906334,negative,71
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,12,2017-10,2024-09,-0.003120146667655971,negative,71
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,12,2017-11,2024-10,-0.002595769859171533,negative,71
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,12,2017-12,2024-11,-0.0030460555075311198,negative,71
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,12,2018-01,2024-12,-0.0011954286538548632,negative,71
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,12,2018-02,2025-01,-0.004046189444190919,negative,71
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,12,2018-03,2025-02,-0.00017263831699533568,negative,71
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,12,2018-04,2025-03,0.0018661809253951033,positive,71
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,12,2018-05,2025-04,0.0010507669808701614,positive,71
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,12,2018-06,2025-05,0.0011855930989891261,positive,71
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,12,2018-07,2025-06,0.0011429015452574514,positive,71
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,12,2018-08,2025-07,0.0001908371674747755,positive,71
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,12,2018-09,2025-08,0.0021045032412730447,positive,71
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,12,2018-10,2025-09,0.003910514110054323,positive,71
+ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,12,2018-11,2025-10,0.003802083356643438,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2013-01,2019-12,0.005850424720858263,positive,76
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2013-02,2020-01,0.0021453137466166134,positive,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2013-03,2020-02,-0.0003507965659836732,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2013-04,2020-03,-0.018097962123239237,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2013-05,2020-04,-0.010649393806745594,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2013-06,2020-05,-0.014299710879708709,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2013-07,2020-06,-0.008160472534667073,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2013-08,2020-07,-0.007714127041087948,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2013-09,2020-08,-0.00481801007726583,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2013-10,2020-09,-0.11993641162151059,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2013-11,2020-10,-0.12579079211006328,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2013-12,2020-11,-0.1172711106469242,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2014-01,2020-12,-0.11115600712941553,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2014-02,2021-01,-0.11516207111541339,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2014-03,2021-02,-0.11599199229182082,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2014-04,2021-03,-0.12008302393677786,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2014-05,2021-04,-0.13519014392650586,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2014-06,2021-05,-0.1384122491521783,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2014-07,2021-06,-0.13651834071764368,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2014-08,2021-07,-0.14511792974933996,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2014-09,2021-08,-0.156067084316421,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2014-10,2021-09,-0.16881609287819596,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2014-11,2021-10,-0.17567362167916442,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2014-12,2021-11,-0.16418874902568614,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2015-01,2021-12,-0.16071554307282743,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2015-02,2022-01,-0.169274998389802,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2015-03,2022-02,-0.15998494863108942,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2015-04,2022-03,-0.16645513381425112,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2015-05,2022-04,-0.142961921546931,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2015-06,2022-05,-0.1367413248430196,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2015-07,2022-06,-0.13243343111577707,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2015-08,2022-07,-0.13138261287050862,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2015-09,2022-08,-0.14097737974230745,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2015-10,2022-09,-0.13507076748913238,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2015-11,2022-10,-0.14021626850865299,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2015-12,2022-11,-0.24424390856882347,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2016-01,2022-12,-0.21351092264297317,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2016-02,2023-01,-0.31937955564061,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2016-03,2023-02,-0.3273972711566916,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2016-04,2023-03,-0.34655879302445114,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2016-05,2023-04,-0.38120571939515224,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2016-06,2023-05,-0.3618131699318647,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2016-07,2023-06,-0.5064006440298285,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2016-08,2023-07,-0.3782804771242025,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2016-09,2023-08,-0.3315838428300316,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2016-10,2023-09,-0.10883101386141625,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2016-11,2023-10,-0.13386400633449103,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2016-12,2023-11,-0.13230440243169658,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2017-01,2023-12,-0.1407982223079621,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2017-02,2024-01,-0.15082968903378727,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2017-03,2024-02,-0.16481723220797018,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2017-04,2024-03,-0.14263104029781384,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2017-05,2024-04,-0.14522182858486887,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2017-06,2024-05,-0.14899676265247355,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2017-07,2024-06,-0.15322252058747382,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2017-08,2024-07,-0.14618017575943087,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2017-09,2024-08,-0.1595068339464838,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2017-10,2024-09,-0.1576237506904024,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2017-11,2024-10,-0.1565680331578246,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2017-12,2024-11,-0.15911188328641818,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2018-01,2024-12,-0.16187332769854526,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2018-02,2025-01,-0.1649797330490511,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2018-03,2025-02,-0.16543081125040163,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2018-04,2025-03,-0.17528930985706373,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2018-05,2025-04,-0.17377429478849293,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2018-06,2025-05,-0.18551681391757135,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2018-07,2025-06,-0.18372147300735805,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2018-08,2025-07,-0.1860835547598714,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2018-09,2025-08,-0.2004226343002451,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2018-10,2025-09,-0.20360284252834088,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,6,2018-11,2025-10,-0.2032786827712588,negative,77
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2013-01,2019-12,0.09408453940211751,positive,70
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2013-02,2020-01,0.09408359127323607,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2013-03,2020-02,0.09459114633678065,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2013-04,2020-03,0.09245410002143145,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2013-05,2020-04,0.08767745596865846,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2013-06,2020-05,0.08573490305644943,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2013-07,2020-06,0.08567534422623814,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2013-08,2020-07,0.06085734956138248,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2013-09,2020-08,0.06604442693148896,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2013-10,2020-09,0.02464613412248847,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2013-11,2020-10,0.03815141653049815,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2013-12,2020-11,0.040532709433327874,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2014-01,2020-12,0.04682774061909549,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2014-02,2021-01,0.04752329474146734,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2014-03,2021-02,0.05250948815837468,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2014-04,2021-03,0.09279363485780134,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2014-05,2021-04,0.07948454469169819,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2014-06,2021-05,0.062355740945230595,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2014-07,2021-06,0.05209792353229107,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2014-08,2021-07,0.037549308743071566,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2014-09,2021-08,0.03853095328526121,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2014-10,2021-09,0.03140443148538665,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2014-11,2021-10,0.003963229825176866,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2014-12,2021-11,-0.008238682777238297,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2015-01,2021-12,-0.0015873039972118465,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2015-02,2022-01,-0.020172708401267978,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2015-03,2022-02,-0.026717657801300358,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2015-04,2022-03,-0.047965120246871246,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2015-05,2022-04,-0.05001590656063127,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2015-06,2022-05,-0.021187983832070507,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2015-07,2022-06,-0.013566883226980164,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2015-08,2022-07,-0.033989931775520885,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2015-09,2022-08,-0.008447802833209875,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2015-10,2022-09,0.010189058042202962,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2015-11,2022-10,0.06860512605378381,positive,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2015-12,2022-11,-0.18048337774721795,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2016-01,2022-12,-0.19848225730928365,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2016-02,2023-01,-0.22122036510027931,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2016-03,2023-02,-0.2312062789630263,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2016-04,2023-03,-0.21873998057942903,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2016-05,2023-04,-0.28110672045022533,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2016-06,2023-05,-0.31032079811188473,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2016-07,2023-06,-0.22895784908532632,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2016-08,2023-07,-0.3651432449356453,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2016-09,2023-08,-0.3423010552082168,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2016-10,2023-09,-0.3695033186928284,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2016-11,2023-10,-0.4042338978714103,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2016-12,2023-11,-0.3463383798180661,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2017-01,2023-12,-0.606127913016769,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2017-02,2024-01,-0.3168251830030981,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2017-03,2024-02,-0.30016523301215065,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2017-04,2024-03,-0.08083547401882613,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2017-05,2024-04,-0.14944422024346088,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2017-06,2024-05,-0.13686443839870335,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2017-07,2024-06,-0.14409856992122402,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2017-08,2024-07,-0.14966219396257344,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2017-09,2024-08,-0.1614529620864135,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2017-10,2024-09,-0.17456793473240792,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2017-11,2024-10,-0.17219729830770866,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2017-12,2024-11,-0.17257546115207098,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2018-01,2024-12,-0.18851241121499246,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2018-02,2025-01,-0.16323445598163877,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2018-03,2025-02,-0.19423616765470933,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2018-04,2025-03,-0.20419956813759946,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2018-05,2025-04,-0.18980464914497677,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2018-06,2025-05,-0.21146858217308714,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2018-07,2025-06,-0.2023729118324517,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2018-08,2025-07,-0.20509556906546292,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2018-09,2025-08,-0.22686827459237027,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2018-10,2025-09,-0.2400096053620321,negative,71
+ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,12,2018-11,2025-10,-0.2391434172541323,negative,71
+ln_dax_real_de,real DAX,6,2005-01,2012-01,3.313785084950084e-05,positive,75
+ln_dax_real_de,real DAX,6,2005-02,2012-02,0.00025657501712327615,positive,76
+ln_dax_real_de,real DAX,6,2005-03,2012-03,-0.00024552652676106015,negative,77
+ln_dax_real_de,real DAX,6,2005-04,2012-04,-0.006738856900755264,negative,77
+ln_dax_real_de,real DAX,6,2005-05,2012-05,-0.010306741129585382,negative,77
+ln_dax_real_de,real DAX,6,2005-06,2012-06,-0.010379842482808354,negative,77
+ln_dax_real_de,real DAX,6,2005-07,2012-07,-0.0101213602638004,negative,77
+ln_dax_real_de,real DAX,6,2005-08,2012-08,-0.009929090358656063,negative,77
+ln_dax_real_de,real DAX,6,2005-09,2012-09,-0.010081094823749826,negative,77
+ln_dax_real_de,real DAX,6,2005-10,2012-10,-0.009910797314832165,negative,77
+ln_dax_real_de,real DAX,6,2005-11,2012-11,-0.010469769813744072,negative,77
+ln_dax_real_de,real DAX,6,2005-12,2012-12,-0.010696739258662382,negative,77
+ln_dax_real_de,real DAX,6,2006-01,2013-01,-0.00371866955620677,negative,77
+ln_dax_real_de,real DAX,6,2006-02,2013-02,-0.00454281667842785,negative,77
+ln_dax_real_de,real DAX,6,2006-03,2013-03,-0.0047406844359214806,negative,77
+ln_dax_real_de,real DAX,6,2006-04,2013-04,-0.005256695509781636,negative,77
+ln_dax_real_de,real DAX,6,2006-05,2013-05,-0.006943379507472224,negative,77
+ln_dax_real_de,real DAX,6,2006-06,2013-06,-0.008947694162456719,negative,77
+ln_dax_real_de,real DAX,6,2006-07,2013-07,-0.011176388914597506,negative,77
+ln_dax_real_de,real DAX,6,2006-08,2013-08,-0.011509862732937437,negative,77
+ln_dax_real_de,real DAX,6,2006-09,2013-09,-0.011349624840020776,negative,77
+ln_dax_real_de,real DAX,6,2006-10,2013-10,-0.010913292955054684,negative,77
+ln_dax_real_de,real DAX,6,2006-11,2013-11,-0.012635610858267253,negative,77
+ln_dax_real_de,real DAX,6,2006-12,2013-12,-0.012717627450343896,negative,77
+ln_dax_real_de,real DAX,6,2007-01,2014-01,-0.012120243854882572,negative,77
+ln_dax_real_de,real DAX,6,2007-02,2014-02,-0.012433032332574109,negative,77
+ln_dax_real_de,real DAX,6,2007-03,2014-03,-0.0123153354874429,negative,77
+ln_dax_real_de,real DAX,6,2007-04,2014-04,-0.01199058821076392,negative,77
+ln_dax_real_de,real DAX,6,2007-05,2014-05,-0.010052731472310375,negative,77
+ln_dax_real_de,real DAX,6,2007-06,2014-06,-0.007462362894266112,negative,77
+ln_dax_real_de,real DAX,6,2007-07,2014-07,-0.006331460415114439,negative,77
+ln_dax_real_de,real DAX,6,2007-08,2014-08,-0.0063801370477997305,negative,77
+ln_dax_real_de,real DAX,6,2007-09,2014-09,-0.005720941382382978,negative,77
+ln_dax_real_de,real DAX,6,2007-10,2014-10,-0.005475401503560574,negative,77
+ln_dax_real_de,real DAX,6,2007-11,2014-11,-0.005237419581743534,negative,77
+ln_dax_real_de,real DAX,6,2007-12,2014-12,-0.004950374951074582,negative,77
+ln_dax_real_de,real DAX,6,2008-01,2015-01,-0.004265400082321299,negative,77
+ln_dax_real_de,real DAX,6,2008-02,2015-02,-0.005246900711454391,negative,77
+ln_dax_real_de,real DAX,6,2008-03,2015-03,0.00031391548379161745,positive,77
+ln_dax_real_de,real DAX,6,2008-04,2015-04,0.00011112544452537974,positive,77
+ln_dax_real_de,real DAX,6,2008-05,2015-05,0.00040365860062675,positive,77
+ln_dax_real_de,real DAX,6,2008-06,2015-06,-0.0003988048520080421,negative,77
+ln_dax_real_de,real DAX,6,2008-07,2015-07,0.002627620338026862,positive,77
+ln_dax_real_de,real DAX,6,2008-08,2015-08,0.0034873626125095755,positive,77
+ln_dax_real_de,real DAX,6,2008-09,2015-09,0.0043706025089732415,positive,77
+ln_dax_real_de,real DAX,6,2008-10,2015-10,0.007189559177568674,positive,77
+ln_dax_real_de,real DAX,6,2008-12,2015-11,0.013820738712188725,positive,77
+ln_dax_real_de,real DAX,6,2009-01,2015-12,0.010718405341400847,positive,77
+ln_dax_real_de,real DAX,6,2009-02,2016-01,0.008999048966455035,positive,77
+ln_dax_real_de,real DAX,6,2009-03,2016-02,0.009545631040615614,positive,77
+ln_dax_real_de,real DAX,6,2009-04,2016-03,0.010044586774052953,positive,77
+ln_dax_real_de,real DAX,6,2009-05,2016-04,0.009722721361019654,positive,77
+ln_dax_real_de,real DAX,6,2009-06,2016-05,0.009621720833713484,positive,77
+ln_dax_real_de,real DAX,6,2009-07,2016-06,0.01243331546461249,positive,77
+ln_dax_real_de,real DAX,6,2009-08,2016-07,0.011230840816054178,positive,77
+ln_dax_real_de,real DAX,6,2009-09,2016-08,0.01080475557661686,positive,77
+ln_dax_real_de,real DAX,6,2009-10,2016-09,0.01067849060723092,positive,77
+ln_dax_real_de,real DAX,6,2009-11,2016-10,0.011258544553438795,positive,77
+ln_dax_real_de,real DAX,6,2009-12,2016-11,0.0111635084691024,positive,77
+ln_dax_real_de,real DAX,6,2010-01,2016-12,0.010987790869876826,positive,77
+ln_dax_real_de,real DAX,6,2010-02,2017-01,0.011377290085121929,positive,77
+ln_dax_real_de,real DAX,6,2010-03,2017-02,0.010986251444618792,positive,77
+ln_dax_real_de,real DAX,6,2010-04,2017-03,0.010718576006645887,positive,77
+ln_dax_real_de,real DAX,6,2010-05,2017-04,0.010878961366851092,positive,77
+ln_dax_real_de,real DAX,6,2010-06,2017-05,0.010693760641741065,positive,77
+ln_dax_real_de,real DAX,6,2010-07,2017-06,0.010698333527339976,positive,77
+ln_dax_real_de,real DAX,6,2010-08,2017-07,0.010825797592690494,positive,77
+ln_dax_real_de,real DAX,6,2010-09,2017-08,0.01083549477798963,positive,77
+ln_dax_real_de,real DAX,6,2010-10,2017-09,0.011493257708610212,positive,77
+ln_dax_real_de,real DAX,6,2010-11,2017-10,0.011664847397609424,positive,77
+ln_dax_real_de,real DAX,6,2010-12,2017-11,0.011806610560556468,positive,77
+ln_dax_real_de,real DAX,6,2011-01,2017-12,0.011831896424048756,positive,77
+ln_dax_real_de,real DAX,6,2011-02,2018-01,0.011889688065005316,positive,77
+ln_dax_real_de,real DAX,6,2011-03,2018-02,0.0114922255599212,positive,77
+ln_dax_real_de,real DAX,6,2011-04,2018-03,0.010756298757965799,positive,77
+ln_dax_real_de,real DAX,6,2011-05,2018-04,0.009961540070712333,positive,77
+ln_dax_real_de,real DAX,6,2011-06,2018-05,0.00987361624791851,positive,77
+ln_dax_real_de,real DAX,6,2011-07,2018-06,0.009594697049122414,positive,77
+ln_dax_real_de,real DAX,6,2011-08,2018-07,0.009291851484952134,positive,77
+ln_dax_real_de,real DAX,6,2011-09,2018-08,0.009363370681803736,positive,77
+ln_dax_real_de,real DAX,6,2011-10,2018-09,0.02290269553942962,positive,77
+ln_dax_real_de,real DAX,6,2011-11,2018-10,0.021691231997150166,positive,77
+ln_dax_real_de,real DAX,6,2011-12,2018-11,0.021554130581592258,positive,77
+ln_dax_real_de,real DAX,6,2012-01,2018-12,0.019013221666248872,positive,77
+ln_dax_real_de,real DAX,6,2012-02,2019-01,0.018684804813387967,positive,77
+ln_dax_real_de,real DAX,6,2012-03,2019-02,0.018184527102873802,positive,77
+ln_dax_real_de,real DAX,6,2012-04,2019-03,0.017990011367429472,positive,77
+ln_dax_real_de,real DAX,6,2012-05,2019-04,0.017721278624881296,positive,77
+ln_dax_real_de,real DAX,6,2012-06,2019-05,0.01775343113207717,positive,77
+ln_dax_real_de,real DAX,6,2012-07,2019-06,0.02425545608520982,positive,77
+ln_dax_real_de,real DAX,6,2012-08,2019-07,0.02407341581933967,positive,77
+ln_dax_real_de,real DAX,6,2012-09,2019-08,0.0226815575755959,positive,77
+ln_dax_real_de,real DAX,6,2012-10,2019-09,0.021716078002744443,positive,77
+ln_dax_real_de,real DAX,6,2012-11,2019-10,0.021077921534840866,positive,77
+ln_dax_real_de,real DAX,6,2012-12,2019-11,0.020879820720548184,positive,77
+ln_dax_real_de,real DAX,6,2013-01,2019-12,0.020188697977103532,positive,77
+ln_dax_real_de,real DAX,6,2013-02,2020-01,0.018229073453225088,positive,77
+ln_dax_real_de,real DAX,6,2013-03,2020-02,0.017748035848480163,positive,77
+ln_dax_real_de,real DAX,6,2013-04,2020-03,0.02331427934023313,positive,77
+ln_dax_real_de,real DAX,6,2013-05,2020-04,0.02237858677165221,positive,77
+ln_dax_real_de,real DAX,6,2013-06,2020-05,0.022238019308130304,positive,77
+ln_dax_real_de,real DAX,6,2013-07,2020-06,0.021832653513451802,positive,77
+ln_dax_real_de,real DAX,6,2013-08,2020-07,0.0218321552369292,positive,77
+ln_dax_real_de,real DAX,6,2013-09,2020-08,0.021813057706450693,positive,77
+ln_dax_real_de,real DAX,6,2013-10,2020-09,0.012646714147570482,positive,77
+ln_dax_real_de,real DAX,6,2013-11,2020-10,0.012946640523220837,positive,77
+ln_dax_real_de,real DAX,6,2013-12,2020-11,0.012848597762077977,positive,77
+ln_dax_real_de,real DAX,6,2014-01,2020-12,0.012821218824685218,positive,77
+ln_dax_real_de,real DAX,6,2014-02,2021-01,0.012880485243087453,positive,77
+ln_dax_real_de,real DAX,6,2014-03,2021-02,0.012825051562322687,positive,77
+ln_dax_real_de,real DAX,6,2014-04,2021-03,0.011447531820560497,positive,77
+ln_dax_real_de,real DAX,6,2014-05,2021-04,0.013105064690823008,positive,77
+ln_dax_real_de,real DAX,6,2014-06,2021-05,0.014396992041421527,positive,77
+ln_dax_real_de,real DAX,6,2014-07,2021-06,0.01377634554044392,positive,77
+ln_dax_real_de,real DAX,6,2014-08,2021-07,0.014745675326460523,positive,77
+ln_dax_real_de,real DAX,6,2014-09,2021-08,0.005912593219701376,positive,77
+ln_dax_real_de,real DAX,6,2014-10,2021-09,0.0063250991150817955,positive,77
+ln_dax_real_de,real DAX,6,2014-11,2021-10,0.0065612034569316685,positive,77
+ln_dax_real_de,real DAX,6,2014-12,2021-11,0.006195107870861028,positive,77
+ln_dax_real_de,real DAX,6,2015-01,2021-12,0.005952689470770363,positive,77
+ln_dax_real_de,real DAX,6,2015-02,2022-01,0.006089555398675466,positive,77
+ln_dax_real_de,real DAX,6,2015-03,2022-02,0.00726934221117588,positive,77
+ln_dax_real_de,real DAX,6,2015-04,2022-03,0.007155064992701325,positive,77
+ln_dax_real_de,real DAX,6,2015-05,2022-04,0.00869566896361417,positive,77
+ln_dax_real_de,real DAX,6,2015-06,2022-05,0.008665720593112426,positive,77
+ln_dax_real_de,real DAX,6,2015-07,2022-06,0.008415289894420225,positive,77
+ln_dax_real_de,real DAX,6,2015-08,2022-07,0.008803908870348667,positive,77
+ln_dax_real_de,real DAX,6,2015-09,2022-08,0.007482559307085876,positive,77
+ln_dax_real_de,real DAX,6,2015-10,2022-09,0.005821505526223715,positive,77
+ln_dax_real_de,real DAX,6,2015-11,2022-10,0.0059917546247358405,positive,77
+ln_dax_real_de,real DAX,6,2015-12,2022-11,0.001278734471485517,positive,77
+ln_dax_real_de,real DAX,6,2016-01,2022-12,-0.0001461719531573459,negative,77
+ln_dax_real_de,real DAX,6,2016-02,2023-01,-0.002497257522898654,negative,77
+ln_dax_real_de,real DAX,6,2016-03,2023-02,-0.002200974835609094,negative,77
+ln_dax_real_de,real DAX,6,2016-04,2023-03,-0.0006591054809574391,negative,77
+ln_dax_real_de,real DAX,6,2016-05,2023-04,-0.00013190847682324365,negative,77
+ln_dax_real_de,real DAX,6,2016-06,2023-05,-0.0027053836640937036,negative,77
+ln_dax_real_de,real DAX,6,2016-07,2023-06,-0.0037580031232507184,negative,77
+ln_dax_real_de,real DAX,6,2016-08,2023-07,-0.01170642228274535,negative,77
+ln_dax_real_de,real DAX,6,2016-09,2023-08,-0.011106095450899203,negative,77
+ln_dax_real_de,real DAX,6,2016-10,2023-09,-0.007039269495540591,negative,77
+ln_dax_real_de,real DAX,6,2016-11,2023-10,-0.006410510287906177,negative,77
+ln_dax_real_de,real DAX,6,2016-12,2023-11,-0.002545407372176026,negative,77
+ln_dax_real_de,real DAX,6,2017-01,2023-12,-0.0014581176095542002,negative,77
+ln_dax_real_de,real DAX,6,2017-02,2024-01,-0.0011272927971356494,negative,77
+ln_dax_real_de,real DAX,6,2017-03,2024-02,-0.0012900681224958998,negative,77
+ln_dax_real_de,real DAX,6,2017-04,2024-03,-0.0038636073304202344,negative,77
+ln_dax_real_de,real DAX,6,2017-05,2024-04,-0.002641749458088664,negative,77
+ln_dax_real_de,real DAX,6,2017-06,2024-05,-0.0020128339772205062,negative,77
+ln_dax_real_de,real DAX,6,2017-07,2024-06,-0.002699684491675537,negative,77
+ln_dax_real_de,real DAX,6,2017-08,2024-07,-0.0024062546642656052,negative,77
+ln_dax_real_de,real DAX,6,2017-09,2024-08,-0.002259003369561137,negative,77
+ln_dax_real_de,real DAX,6,2017-10,2024-09,-0.0019335764683542597,negative,77
+ln_dax_real_de,real DAX,6,2017-11,2024-10,-0.002135002627706251,negative,77
+ln_dax_real_de,real DAX,6,2017-12,2024-11,-0.002378563888460867,negative,77
+ln_dax_real_de,real DAX,6,2018-01,2024-12,-0.0026180210087465823,negative,77
+ln_dax_real_de,real DAX,6,2018-02,2025-01,-0.003541207578595353,negative,77
+ln_dax_real_de,real DAX,6,2018-03,2025-02,-0.003631676386347306,negative,77
+ln_dax_real_de,real DAX,6,2018-04,2025-03,-0.002254468819152548,negative,77
+ln_dax_real_de,real DAX,6,2018-05,2025-04,-0.003533017442369883,negative,77
+ln_dax_real_de,real DAX,6,2018-06,2025-05,-0.00182220383482514,negative,77
+ln_dax_real_de,real DAX,6,2018-07,2025-06,-0.004225497462681246,negative,77
+ln_dax_real_de,real DAX,6,2018-08,2025-07,-0.003053385236035005,negative,77
+ln_dax_real_de,real DAX,6,2018-09,2025-08,-0.0030717767355895828,negative,77
+ln_dax_real_de,real DAX,6,2018-10,2025-09,-0.0025735544892162687,negative,77
+ln_dax_real_de,real DAX,6,2018-11,2025-10,-0.0021818113077578757,negative,77
+ln_dax_real_de,real DAX,12,2005-01,2012-01,0.027026347275996634,positive,69
+ln_dax_real_de,real DAX,12,2005-02,2012-02,0.026579226144708246,positive,70
+ln_dax_real_de,real DAX,12,2005-03,2012-03,0.026169277225440515,positive,71
+ln_dax_real_de,real DAX,12,2005-04,2012-04,0.026950013111904564,positive,71
+ln_dax_real_de,real DAX,12,2005-05,2012-05,0.030091576741303794,positive,71
+ln_dax_real_de,real DAX,12,2005-06,2012-06,0.030175075432026608,positive,71
+ln_dax_real_de,real DAX,12,2005-07,2012-07,0.030465937353829832,positive,71
+ln_dax_real_de,real DAX,12,2005-08,2012-08,0.03061941151010782,positive,71
+ln_dax_real_de,real DAX,12,2005-09,2012-09,0.032655941821908695,positive,71
+ln_dax_real_de,real DAX,12,2005-10,2012-10,0.023188294934800978,positive,71
+ln_dax_real_de,real DAX,12,2005-11,2012-11,0.020691582610901517,positive,71
+ln_dax_real_de,real DAX,12,2005-12,2012-12,0.01722371155759478,positive,71
+ln_dax_real_de,real DAX,12,2006-01,2013-01,0.01899140770610134,positive,71
+ln_dax_real_de,real DAX,12,2006-02,2013-02,0.016669992069860536,positive,71
+ln_dax_real_de,real DAX,12,2006-03,2013-03,0.016320649738378216,positive,71
+ln_dax_real_de,real DAX,12,2006-04,2013-04,0.01656493547424855,positive,71
+ln_dax_real_de,real DAX,12,2006-05,2013-05,0.012509968997740413,positive,71
+ln_dax_real_de,real DAX,12,2006-06,2013-06,0.008551008614850092,positive,71
+ln_dax_real_de,real DAX,12,2006-07,2013-07,0.012604872488285582,positive,71
+ln_dax_real_de,real DAX,12,2006-08,2013-08,0.008947235946300367,positive,71
+ln_dax_real_de,real DAX,12,2006-09,2013-09,0.007182452611993144,positive,71
+ln_dax_real_de,real DAX,12,2006-10,2013-10,0.006076596493144419,positive,71
+ln_dax_real_de,real DAX,12,2006-11,2013-11,0.0041194467725188975,positive,71
+ln_dax_real_de,real DAX,12,2006-12,2013-12,0.0033956201117560586,positive,71
+ln_dax_real_de,real DAX,12,2007-01,2014-01,0.002716566976150966,positive,71
+ln_dax_real_de,real DAX,12,2007-02,2014-02,0.0012822491713776762,positive,71
+ln_dax_real_de,real DAX,12,2007-03,2014-03,0.001054167226419435,positive,71
+ln_dax_real_de,real DAX,12,2007-04,2014-04,0.001832248823318292,positive,71
+ln_dax_real_de,real DAX,12,2007-05,2014-05,0.0031560610697178204,positive,71
+ln_dax_real_de,real DAX,12,2007-06,2014-06,0.0029968313489559697,positive,71
+ln_dax_real_de,real DAX,12,2007-07,2014-07,0.004611371832396821,positive,71
+ln_dax_real_de,real DAX,12,2007-08,2014-08,0.003469603702086812,positive,71
+ln_dax_real_de,real DAX,12,2007-09,2014-09,0.0032912297267363453,positive,71
+ln_dax_real_de,real DAX,12,2007-10,2014-10,0.002449560194886234,positive,71
+ln_dax_real_de,real DAX,12,2007-11,2014-11,0.0013835726017201783,positive,71
+ln_dax_real_de,real DAX,12,2007-12,2014-12,-6.877551286530625e-05,negative,71
+ln_dax_real_de,real DAX,12,2008-01,2015-01,-0.003157451652568852,negative,71
+ln_dax_real_de,real DAX,12,2008-02,2015-02,-0.0012955183205200975,negative,71
+ln_dax_real_de,real DAX,12,2008-03,2015-03,-0.0033604309782537724,negative,71
+ln_dax_real_de,real DAX,12,2008-04,2015-04,-0.003483987356919382,negative,71
+ln_dax_real_de,real DAX,12,2008-05,2015-05,-0.005913150629419263,negative,71
+ln_dax_real_de,real DAX,12,2008-06,2015-06,-0.006636022833180759,negative,71
+ln_dax_real_de,real DAX,12,2008-07,2015-07,-0.005443016362815683,negative,71
+ln_dax_real_de,real DAX,12,2008-08,2015-08,-0.005297848841624167,negative,71
+ln_dax_real_de,real DAX,12,2008-09,2015-09,-0.007432115845577044,negative,71
+ln_dax_real_de,real DAX,12,2008-10,2015-10,-0.005622465293093586,negative,71
+ln_dax_real_de,real DAX,12,2008-12,2015-11,0.005028217833045553,positive,71
+ln_dax_real_de,real DAX,12,2009-01,2015-12,0.003519599547551987,positive,71
+ln_dax_real_de,real DAX,12,2009-02,2016-01,0.0034675338304795333,positive,71
+ln_dax_real_de,real DAX,12,2009-03,2016-02,0.006432658010380538,positive,71
+ln_dax_real_de,real DAX,12,2009-04,2016-03,0.008806740516281972,positive,71
+ln_dax_real_de,real DAX,12,2009-05,2016-04,0.010225311345619626,positive,71
+ln_dax_real_de,real DAX,12,2009-06,2016-05,0.00831924660286336,positive,71
+ln_dax_real_de,real DAX,12,2009-07,2016-06,0.007142052157073327,positive,71
+ln_dax_real_de,real DAX,12,2009-08,2016-07,0.005576097989943151,positive,71
+ln_dax_real_de,real DAX,12,2009-09,2016-08,0.005799413466952633,positive,71
+ln_dax_real_de,real DAX,12,2009-10,2016-09,0.004843434981134856,positive,71
+ln_dax_real_de,real DAX,12,2009-11,2016-10,0.005078203293531562,positive,71
+ln_dax_real_de,real DAX,12,2009-12,2016-11,0.004700420205122213,positive,71
+ln_dax_real_de,real DAX,12,2010-01,2016-12,0.0034270828616550474,positive,71
+ln_dax_real_de,real DAX,12,2010-02,2017-01,0.003223858069747538,positive,71
+ln_dax_real_de,real DAX,12,2010-03,2017-02,0.0033904019920663006,positive,71
+ln_dax_real_de,real DAX,12,2010-04,2017-03,0.002991327648117234,positive,71
+ln_dax_real_de,real DAX,12,2010-05,2017-04,0.0030926968794222297,positive,71
+ln_dax_real_de,real DAX,12,2010-06,2017-05,0.0032705602182478977,positive,71
+ln_dax_real_de,real DAX,12,2010-07,2017-06,0.0033091176650658404,positive,71
+ln_dax_real_de,real DAX,12,2010-08,2017-07,0.002136745882798038,positive,71
+ln_dax_real_de,real DAX,12,2010-09,2017-08,0.0019601008743053167,positive,71
+ln_dax_real_de,real DAX,12,2010-10,2017-09,0.0002933913093088631,positive,71
+ln_dax_real_de,real DAX,12,2010-11,2017-10,-0.0004025536335851707,negative,71
+ln_dax_real_de,real DAX,12,2010-12,2017-11,-0.0011679442933919795,negative,71
+ln_dax_real_de,real DAX,12,2011-01,2017-12,-0.0016474336492777726,negative,71
+ln_dax_real_de,real DAX,12,2011-02,2018-01,-0.002072357376617636,negative,71
+ln_dax_real_de,real DAX,12,2011-03,2018-02,-0.00230193068665956,negative,71
+ln_dax_real_de,real DAX,12,2011-04,2018-03,-0.002919582019915293,negative,71
+ln_dax_real_de,real DAX,12,2011-05,2018-04,-0.003939046941076499,negative,71
+ln_dax_real_de,real DAX,12,2011-06,2018-05,-0.004083554278129766,negative,71
+ln_dax_real_de,real DAX,12,2011-07,2018-06,-0.004605956619547287,negative,71
+ln_dax_real_de,real DAX,12,2011-08,2018-07,-0.005055499391003806,negative,71
+ln_dax_real_de,real DAX,12,2011-09,2018-08,-0.005117342870768889,negative,71
+ln_dax_real_de,real DAX,12,2011-10,2018-09,-0.0008425681169811744,negative,71
+ln_dax_real_de,real DAX,12,2011-11,2018-10,-0.012189371818826249,negative,71
+ln_dax_real_de,real DAX,12,2011-12,2018-11,-0.011579339597556412,negative,71
+ln_dax_real_de,real DAX,12,2012-01,2018-12,-0.01150419920680654,negative,71
+ln_dax_real_de,real DAX,12,2012-02,2019-01,-0.01201693521864002,negative,71
+ln_dax_real_de,real DAX,12,2012-03,2019-02,-0.01351707087648938,negative,71
+ln_dax_real_de,real DAX,12,2012-04,2019-03,-0.013605343758095806,negative,71
+ln_dax_real_de,real DAX,12,2012-05,2019-04,-0.013947563911744454,negative,71
+ln_dax_real_de,real DAX,12,2012-06,2019-05,-0.016919505888823006,negative,71
+ln_dax_real_de,real DAX,12,2012-07,2019-06,-0.01732436118803329,negative,71
+ln_dax_real_de,real DAX,12,2012-08,2019-07,-0.01745881016246702,negative,71
+ln_dax_real_de,real DAX,12,2012-09,2019-08,-0.019763653138451655,negative,71
+ln_dax_real_de,real DAX,12,2012-10,2019-09,-0.020829929408016326,negative,71
+ln_dax_real_de,real DAX,12,2012-11,2019-10,-0.021392504528620692,negative,71
+ln_dax_real_de,real DAX,12,2012-12,2019-11,-0.021677034683892666,negative,71
+ln_dax_real_de,real DAX,12,2013-01,2019-12,-0.021200648723828062,negative,71
+ln_dax_real_de,real DAX,12,2013-02,2020-01,-0.021024783674954896,negative,71
+ln_dax_real_de,real DAX,12,2013-03,2020-02,-0.021535725413359425,negative,71
+ln_dax_real_de,real DAX,12,2013-04,2020-03,-0.021236868758058774,negative,71
+ln_dax_real_de,real DAX,12,2013-05,2020-04,-0.01998888685004598,negative,71
+ln_dax_real_de,real DAX,12,2013-06,2020-05,-0.02034648915756868,negative,71
+ln_dax_real_de,real DAX,12,2013-07,2020-06,-0.020313341794085935,negative,71
+ln_dax_real_de,real DAX,12,2013-08,2020-07,-0.01946147799296784,negative,71
+ln_dax_real_de,real DAX,12,2013-09,2020-08,-0.02010821282942833,negative,71
+ln_dax_real_de,real DAX,12,2013-10,2020-09,-0.02074068880720657,negative,71
+ln_dax_real_de,real DAX,12,2013-11,2020-10,-0.020562590890049096,negative,71
+ln_dax_real_de,real DAX,12,2013-12,2020-11,-0.02055864694727171,negative,71
+ln_dax_real_de,real DAX,12,2014-01,2020-12,-0.01978826325731053,negative,71
+ln_dax_real_de,real DAX,12,2014-02,2021-01,-0.019730075656043043,negative,71
+ln_dax_real_de,real DAX,12,2014-03,2021-02,-0.016927559195829774,negative,71
+ln_dax_real_de,real DAX,12,2014-04,2021-03,-0.02146435601280994,negative,71
+ln_dax_real_de,real DAX,12,2014-05,2021-04,-0.018503412726292974,negative,71
+ln_dax_real_de,real DAX,12,2014-06,2021-05,-0.016625255933307607,negative,71
+ln_dax_real_de,real DAX,12,2014-07,2021-06,-0.015786500541813284,negative,71
+ln_dax_real_de,real DAX,12,2014-08,2021-07,-0.01486218962957304,negative,71
+ln_dax_real_de,real DAX,12,2014-09,2021-08,-0.014180247021165207,negative,71
+ln_dax_real_de,real DAX,12,2014-10,2021-09,-0.014629906356380633,negative,71
+ln_dax_real_de,real DAX,12,2014-11,2021-10,-0.013126882218027094,negative,71
+ln_dax_real_de,real DAX,12,2014-12,2021-11,-0.012944588666191397,negative,71
+ln_dax_real_de,real DAX,12,2015-01,2021-12,-0.013994433614247714,negative,71
+ln_dax_real_de,real DAX,12,2015-02,2022-01,-0.013427900638417435,negative,71
+ln_dax_real_de,real DAX,12,2015-03,2022-02,-0.013727253955550807,negative,71
+ln_dax_real_de,real DAX,12,2015-04,2022-03,-0.013244220074848875,negative,71
+ln_dax_real_de,real DAX,12,2015-05,2022-04,-0.012876371382335945,negative,71
+ln_dax_real_de,real DAX,12,2015-06,2022-05,-0.012883437486137773,negative,71
+ln_dax_real_de,real DAX,12,2015-07,2022-06,-0.013010429228713514,negative,71
+ln_dax_real_de,real DAX,12,2015-08,2022-07,-0.013270782580930774,negative,71
+ln_dax_real_de,real DAX,12,2015-09,2022-08,-0.013823476966784426,negative,71
+ln_dax_real_de,real DAX,12,2015-10,2022-09,-0.014743935552822069,negative,71
+ln_dax_real_de,real DAX,12,2015-11,2022-10,-0.013843072790691057,negative,71
+ln_dax_real_de,real DAX,12,2015-12,2022-11,-0.005356429561101571,negative,71
+ln_dax_real_de,real DAX,12,2016-01,2022-12,-0.004954653055307695,negative,71
+ln_dax_real_de,real DAX,12,2016-02,2023-01,-0.005316751135857093,negative,71
+ln_dax_real_de,real DAX,12,2016-03,2023-02,-0.00445739361452484,negative,71
+ln_dax_real_de,real DAX,12,2016-04,2023-03,-0.004047445749707757,negative,71
+ln_dax_real_de,real DAX,12,2016-05,2023-04,-0.0036886104674698473,negative,71
+ln_dax_real_de,real DAX,12,2016-06,2023-05,-0.003014914465968812,negative,71
+ln_dax_real_de,real DAX,12,2016-07,2023-06,-0.002817005245000163,negative,71
+ln_dax_real_de,real DAX,12,2016-08,2023-07,-0.0014465454389577706,negative,71
+ln_dax_real_de,real DAX,12,2016-09,2023-08,-0.0014221442551135915,negative,71
+ln_dax_real_de,real DAX,12,2016-10,2023-09,-0.002893461871966672,negative,71
+ln_dax_real_de,real DAX,12,2016-11,2023-10,-0.0013087984367973677,negative,71
+ln_dax_real_de,real DAX,12,2016-12,2023-11,-0.00872059728164688,negative,71
+ln_dax_real_de,real DAX,12,2017-01,2023-12,-0.00029601957188882906,negative,71
+ln_dax_real_de,real DAX,12,2017-02,2024-01,-0.009995478185391071,negative,71
+ln_dax_real_de,real DAX,12,2017-03,2024-02,-0.012096557625664348,negative,71
+ln_dax_real_de,real DAX,12,2017-04,2024-03,-0.01918395711513714,negative,71
+ln_dax_real_de,real DAX,12,2017-05,2024-04,-0.017298926783454096,negative,71
+ln_dax_real_de,real DAX,12,2017-06,2024-05,-0.014887081247086166,negative,71
+ln_dax_real_de,real DAX,12,2017-07,2024-06,-0.015196534957920062,negative,71
+ln_dax_real_de,real DAX,12,2017-08,2024-07,-0.01515413456705729,negative,71
+ln_dax_real_de,real DAX,12,2017-09,2024-08,-0.014693981790141652,negative,71
+ln_dax_real_de,real DAX,12,2017-10,2024-09,-0.015101345119713337,negative,71
+ln_dax_real_de,real DAX,12,2017-11,2024-10,-0.0157337241633965,negative,71
+ln_dax_real_de,real DAX,12,2017-12,2024-11,-0.015916377292345615,negative,71
+ln_dax_real_de,real DAX,12,2018-01,2024-12,-0.014869714602209629,negative,71
+ln_dax_real_de,real DAX,12,2018-02,2025-01,-0.014423978765794604,negative,71
+ln_dax_real_de,real DAX,12,2018-03,2025-02,-0.013025123483833853,negative,71
+ln_dax_real_de,real DAX,12,2018-04,2025-03,-0.011976003165866321,negative,71
+ln_dax_real_de,real DAX,12,2018-05,2025-04,-0.013731916420163167,negative,71
+ln_dax_real_de,real DAX,12,2018-06,2025-05,-0.013709774684901775,negative,71
+ln_dax_real_de,real DAX,12,2018-07,2025-06,-0.014287601807390117,negative,71
+ln_dax_real_de,real DAX,12,2018-08,2025-07,-0.01469518512468579,negative,71
+ln_dax_real_de,real DAX,12,2018-09,2025-08,-0.01448335828973895,negative,71
+ln_dax_real_de,real DAX,12,2018-10,2025-09,-0.013807822567247887,negative,71
+ln_dax_real_de,real DAX,12,2018-11,2025-10,-0.013755781075495159,negative,71

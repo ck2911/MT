@@ -1,0 +1,22 @@
+\theoremstyle{plain}
+\newtheorem{proposition}{Proposition}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+
+\theoremstyle{definition}
+\newtheorem{assumption}{Assumption}[chapter]
+\newtheorem{definition}{Definition}[chapter]
+
+% Hypotheses are numbered 1, 2, 3 across the thesis and set as indented italic
+% blocks, in the same style as the research question. The head stays upright bold.
+\newtheoremstyle{thesishypothesis}
+  {0.2\baselineskip}{0.2\baselineskip}{\itshape}{}{\upshape\bfseries}{.}{\newline}{}
+\theoremstyle{thesishypothesis}
+\newtheorem{hypothesisinner}{Hypothesis}
+\newenvironment{hypothesis}[1][]
+  {\begin{quote}\begin{hypothesisinner}[#1]}
+  {\end{hypothesisinner}\end{quote}}
+\crefname{hypothesisinner}{Hypothesis}{Hypotheses}
+\Crefname{hypothesisinner}{Hypothesis}{Hypotheses}
+
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}[chapter]

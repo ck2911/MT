@@ -1,0 +1,29 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Monthly first-stage relevance of the strongest candidate policy bridges}
+  \label{tab:instrument-strength-matrix}
+  \footnotesize
+  \setstretch{1.0}
+  \setlength{\tabcolsep}{5pt}
+  \begin{tabular}{@{}ll S[table-format=2.2] S[table-format=1.3] S[table-format=3.0] l@{}}
+    \toprule
+    Surprise factor & Policy target & \multicolumn{1}{c}{$F$} & \multicolumn{1}{c}{Partial $R^2$} & \multicolumn{1}{c}{$N$} & Screen \\
+    \midrule
+    target factor & deposit facility rate, end of month & 17.07 & 0.066 & 246 & fragile candidate \\
+    timing factor & ECB assets, log monthly average & 10.99 & 0.044 & 244 & fragile candidate \\
+    fg factor & deposit facility rate, monthly average & 9.43 & 0.038 & 244 & fragile candidate \\
+    timing factor & ECB assets, log end-of-month stock & 7.05 & 0.029 & 244 & fragile candidate \\
+    qe factor & deposit facility rate, end of month & 5.73 & 0.040 & 142 & fragile candidate \\
+    target factor & ECB assets, log monthly average & 4.42 & 0.018 & 246 & reject weak relevance \\
+    target factor & household credit & 3.02 & 0.012 & 246 & reject weak relevance \\
+    qe factor & NFC credit & 2.50 & 0.018 & 142 & reject weak relevance \\
+    \bottomrule
+  \end{tabular}
+  \vspace{0.3em}
+  \begin{minipage}{\textwidth}\footnotesize\setstretch{1.0}
+  Notes: Eight strongest bridges from the monthly first-stage tournament, ranked by
+  $F$-statistic. No candidate clears the strength and stability screen jointly, which
+  is why the thesis reports reduced-form responses to policy news.
+  Source: own calculations.
+  \end{minipage}
+\end{table}

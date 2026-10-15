@@ -1,0 +1,3 @@
+response,response_label,channel,response_role,status,earliest_estimated_horizon,earliest_p10_horizon,peak_abs_horizon,peak_response,cumulative_response,direction,p10_horizon_share,estimated_horizons,frequency_integrity,interpretation_layer,nobs,coefficient_1sd,std_error_hac_1sd,p_value,timing_note
+ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,monthly,estimated,0.0,1.0,12.0,0.05000393321222364,0.14007707210426498,positive,0.3333333333333333,6.0,monthly_observed,ordered_timing_evidence,,,,,
+ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,monthly,estimated,0.0,1.0,12.0,0.02518342826508123,0.07072030870698151,positive,0.3333333333333333,6.0,monthly_observed,ordered_timing_evidence,,,,,

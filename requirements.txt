@@ -1,0 +1,13 @@
+# Python packages used by the empirical pipeline, the table/figure generators and the notebook.
+# Pinned to the versions with which the thesis results were produced and re-verified (Python 3.13).
+# Everything else the scripts import is in the Python standard library.
+numpy==2.4.1
+pandas==3.0.0
+scipy==1.17.0
+statsmodels==0.14.6
+matplotlib==3.10.8
+
+# Notebook: Jupyter to open "1. thesis_master_notebook.ipynb", nbconvert to run it headless.
+jupyterlab==4.6.4
+nbconvert==7.17.1
+ipykernel==7.4.0

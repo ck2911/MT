@@ -1,0 +1,17 @@
+\section{Technical Derivations}
+\label{app:technical-derivations}
+
+This appendix records notation conventions used in the empirical chapters. The derivations support response-path reporting and do not add structural identifying assumptions.
+
+\subsection{Cumulative Responses}
+
+For response \(i\), the cumulative response through reported horizon \(H\) is:
+
+\begin{equation}
+  \operatorname{CIRF}_i(H) = \sum_{h \in \mathcal{H}: h \leq H}\widehat{\IRF}_i(h),
+  \label{eq:cumulative-irf}
+\end{equation}
+
+where \(\mathcal{H}=\{0,1,3,6,12,24\}\) is the thesis-facing horizon set. This convention matches the cumulative-response summaries exported by the empirical pipeline and used in the persistence tables.
+
+The HAC interval around \(\operatorname{CIRF}_i(H)\) uses the standard error in \Cref{eq:cumulative-se}, which treats the horizon-level estimates as independent. The dependence-aware alternative resamples the residuals of all horizons jointly, in moving blocks of twelve months or with wild sign flips, re-estimates every horizon on the same draw, and takes percentiles of the resulting running sums. \Cref{tab:bootstrap-cumulative} reports those intervals next to the HAC intervals of \Cref{tab:cumulative-persistence}.

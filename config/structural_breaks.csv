@@ -1,0 +1,6 @@
+"break_id","date","dummy_variable","motivation","use_in_baseline","use_in_robustness"
+"gfc_2008q4","2008-12-31","dummy_gfc_2008q4","global financial crisis and ECB liquidity response",TRUE,TRUE
+"euro_crisis_2012q3","2012-09-30","dummy_euro_crisis_2012q3","euro-area sovereign crisis and OMT-era break risk",TRUE,TRUE
+"qe_launch_2015q1","2015-03-31","dummy_qe_launch_2015q1","public-sector purchase programme / QE launch regime marker",TRUE,TRUE
+"covid_2020q2","2020-06-30","dummy_covid_2020q2","COVID shock and PEPP liquidity expansion",TRUE,TRUE
+"tightening_2022q3","2022-09-30","dummy_2022_tightening_q3","inflation shock and ECB tightening regime",FALSE,TRUE

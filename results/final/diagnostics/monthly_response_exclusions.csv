@@ -1,0 +1,3 @@
+response,status,reason
+ln_house_price_de_real_q_observed,excluded_no_monthly_interpolation,Quarterly housing series is sparse at quarter-end only; not interpolated.
+ln_compensation_ea20_real_q_observed,excluded_no_monthly_interpolation,Quarterly compensation series is sparse at quarter-end only; not interpolated.

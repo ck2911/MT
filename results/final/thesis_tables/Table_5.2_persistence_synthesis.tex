@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Main synthesis table for persistence evidence}
+  \label{tab:persistence-synthesis}
+  \scriptsize
+  \setlength{\tabcolsep}{3pt}
+  \begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.16\textwidth}>{\raggedright\arraybackslash}p{0.10\textwidth}>{\raggedright\arraybackslash}p{0.08\textwidth}>{\raggedright\arraybackslash}p{0.16\textwidth}>{\raggedright\arraybackslash}p{0.16\textwidth}>{\raggedright\arraybackslash}X@{}}
+    \toprule
+    Variable & Sign & Peak horizon & Cumulative persistence & Stability & Interpretation \\
+    \midrule
+    House-purchase lending growth & Positive & h6 & Positive h24 after a partial reversal from h12, 90\% HAC CI excludes zero, bootstrap through h12 & High: sign 0.86, cumulative 1.00 & Core housing-credit response and main empirical contribution. \\
+    Mortgage spreads & Positive & h12 & Positive h24, 90\% CI excludes zero (HAC and moving block) & Very high: sign 1.00, cumulative 1.00 & Stable lending-condition margin supporting intermediation. \\
+    NFC spreads & Positive & h12 & Positive h24, 90\% HAC CI excludes zero, bootstrap at h12 only & High: sign 0.90, cumulative 1.00 & Smaller but durable corporate credit-price adjustment. \\
+    NFC credit & Mixed & h24 & Negative h24, CI crosses zero & Weak: sign 0.52, cumulative 0.50 & Productive-credit quantity response too imprecise for a persistence claim. \\
+    DAX & Negative & h24 & Negative h24, 90\% CI excludes zero (HAC and bootstrap) & High: sign 0.90, cumulative 1.00 & Information-sensitive market response, not asset-appreciation evidence. \\
+    ECB assets & Negative & h24 & Negative h24, CI crosses zero & Moderate: sign 0.79, cumulative 0.86 & Liquidity-stock context, not a strong persistence pillar. \\
+    Wage tracker & Mixed & h24 & Negative h24, CI crosses zero & Moderate: sign 0.67, cumulative 0.86 & Euro-area compensation response attenuates by h24. \\
+    German wage bill & Positive & h1 & Positive h24, 90\% CI excludes zero (HAC and both bootstraps) & High: sign 0.81, cumulative 1.00 & Sectoral compensation response, durable through h24. \\
+    Employment expectations & Positive then reverse & h1 & Positive h24, CI crosses zero & Moderate: sign 0.76, cumulative 0.79 & Short-horizon labor expectations, not durable income transmission. \\
+    \bottomrule
+  \end{tabularx}
+  \vspace{0.25em}
+  {\footnotesize Notes: Peak horizons, accumulated responses, and stability shares summarize the estimates reported in \Cref{tab:normalized-irf-output,tab:cumulative-persistence}. CI refers to the HAC interval under the independence approximation, bootstrap to the joint moving-block and wild intervals in \Cref{tab:bootstrap-cumulative}. Source: own calculations.}
+\end{table}

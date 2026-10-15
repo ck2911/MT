@@ -1,0 +1,210 @@
+\chapter{Theoretical Framework and Methodology}
+\label{chap:theory}
+\label{chap:methodology}
+
+\Cref{chap:literature} supplied the theory and the tools. This chapter puts them to work. It states the empirical objective, names the theory, derives the hypotheses from it, and then builds the estimator step by step: the shock, the screen for information effects, the relevance diagnostics, the local projections, the uncertainty layer, and the timing checks. It ends with what the design can and cannot say and with how every result is reproduced.
+
+\section{Empirical Objective}
+
+This thesis estimates how a set of macro-financial variables respond to unexpected ECB policy news. The shock is the monthly high-frequency target surprise. It is signed so that a positive value is an easing surprise. The variables cover housing credit, lending conditions, financial-market prices, the ECB balance sheet, broad credit stocks, labor expectations, and compensation-linked wage pressure.
+
+The question is comparative. It asks which of these channels shows the clearest and most persistent response, not whether a single channel moves in isolation. The object of interest is therefore a response path, measured at several horizons, rather than one impact number. Signs, accumulated responses, confidence bands, and stability checks are read together.
+
+The estimates are reduced-form. They describe dynamic responses to policy news. They are not a structural welfare model, and they do not measure household-level outcomes. That boundary is set here, and it holds through the results and the conclusion.
+
+\section{Theoretical Foundation: The Credit Channel}
+\label{sec:credit-channel-theory}
+
+The theory behind the thesis is the credit channel of monetary policy transmission, set out by \textcite{BernankeGertler1995} and given a formal quantitative model in the financial accelerator of \textcite{BernankeGertlerGilchrist1999}. The credit channel starts from one friction. Lenders know less about borrowers than borrowers know about themselves, so external funds cost more than internal funds. The gap is the external finance premium. Monetary policy moves this premium as well as the risk-free rate, and the premium is what makes the response of spending to a policy change larger and more uneven across sectors than the interest-rate channel alone would produce.
+
+The theory has two strands. The balance-sheet channel says that policy changes borrower net worth and collateral values. Easier policy raises asset prices and cash flows, strengthens balance sheets, and lowers the premium a borrower has to pay, so credit-financed spending expands. The bank-lending channel says that policy changes the supply of loans that banks are willing to make. Easier policy improves bank funding conditions and balance-sheet capacity, so banks price loans more generously and extend more of them. \textcite{AdrianShin2010} and \textcite{BorioZhu2012} extend the second strand to the intermediary itself. Policy changes the leverage, funding costs, and risk appetite of banks, and that shows up first in lending margins and lending standards, before it shows up in credit volumes or in the real economy.
+
+Two implications of the theory matter for this thesis. First, the effect of a policy shock is uneven across sectors. It is largest where spending is credit-financed and secured on collateral, because that is where the external finance premium and the collateral constraint bind. Housing is the leading case. \textcite{BernankeGertler1995} point to it as the purchase where the conventional interest-rate channel struggles most, since a temporary move in short rates has a large effect on demand for a long-lived asset, and the credit channel is their explanation. Second, the effect on income runs through activity, not directly. Policy changes financial conditions, financial conditions change credit-financed spending, and only then do output, employment, and pay adjust. Pay adjusts slowly because nominal wages are set in multi-period contracts that overlap across firms and sectors, so at any point in time most wages cannot respond to news \parencite{Taylor1980}. Negotiated wages, which the compensation-linked block in this thesis measures, are the clearest case of such contracts.
+
+\section{Mechanism Framework}
+
+The credit channel is read through a housing-credit transmission chain.
+\begin{equation}
+\begin{aligned}
+  \text{ECB policy news}
+  &\rightarrow
+  \text{intermediation variables} \\
+  &\rightarrow
+  \text{housing-credit expansion}
+  \rightarrow
+  \text{selected financial responses}.
+\end{aligned}
+\label{eq:mechanism-chain}
+\end{equation}
+
+The first link is the ECB policy surprise. The second link is the set of intermediation variables, mainly lending spreads, lending rates, broad credit, the balance sheet, and bank timing evidence. The third link is housing credit, measured first by house-purchase lending growth and then by pure-new mortgage flows. Equity and other financial prices sit alongside this chain and help interpret it. They do not carry the thesis on their own.
+
+The chain is not a structural mediation model. All of the variables respond to the same shock, and monthly aggregate data cannot separate the decision of one bank from the response of one household. What the chain does provide is a disciplined way to read timing. If policy news reaches housing credit through intermediation, the lending variables should move in a way that makes the housing-credit response believable. The compensation-linked block is the real-economy comparison.
+
+\section{Derivation of the Hypotheses}
+\label{sec:hypothesis-derivation}
+
+The research question stated in \Cref{chap:introduction} asks whether post-COVID ECB monetary easing transmitted more strongly through housing-credit and financial-intermediation channels than through compensation-linked real-economy variables. The credit channel gives a direct answer, and the three hypotheses follow from it. They are restated here in the order of the chain in \Cref{eq:mechanism-chain}, so that each can be read against the part of the theory that produces it.
+
+The first hypothesis follows from the balance-sheet channel. Housing is the largest credit-financed and collateral-secured purchase most households make. An easing surprise lowers the external finance premium on mortgage borrowing and raises the collateral value that secures it, and both effects work in the same direction. Because the stock of housing credit adjusts through new lending that is repaid over years, the effect on the growth of that stock should build over several months and last, not appear and vanish at impact. This is \Cref{hyp:housing-credit-persistence}: expansionary ECB policy-news shocks generated clear and persistent responses in housing-credit variables, especially house-purchase lending growth. The hypothesis is rejected if the accumulated response of house-purchase lending growth includes zero, or changes sign, at the twelve- and twenty-four-month horizons.
+
+The second hypothesis follows from the sequencing of the channel together with staggered wage setting. Compensation sits at the end of the chain. It moves only after credit-financed spending has changed activity, and negotiated wages respond to that change only as agreements come up for renewal. Within a two-year window the monthly response of compensation-linked variables should therefore be later, smaller, and less stable than the response of housing credit. That is \Cref{hyp:compensation-linked-attenuation}: compensation-linked real-economy variables responded less consistently and less persistently than the housing-credit block. The hypothesis is rejected if the accumulated compensation-linked responses keep their sign and exclude zero at the long horizons as reliably as housing credit does. It is a comparative statement, not a claim that income effects are absent.
+
+The third hypothesis follows from the bank-lending channel and the intermediary view. Banks respond to policy first through the price of credit, that is the margin between their lending rates and their funding rate, and they expand lending first where collateral makes it cheapest to extend. Household mortgage lending is secured on real estate. Lending to firms depends on investment plans and on firm balance sheets that adjust more slowly. The theory therefore predicts that intermediation variables and housing credit respond earlier and more persistently than productive-credit quantities and compensation-linked variables. \Cref{hyp:differential-financial-intermediation} puts this as follows: expansionary monetary-policy shocks generated stronger and more persistent responses in housing-credit and financial-intermediation variables than in productive-credit and compensation-linked variables, indicating heterogeneous monetary transmission across sectors. The hypothesis is rejected if broad NFC credit responds as strongly and as durably as housing credit and the lending spreads. The timing evidence in \Cref{sec:sequential-timing} is descriptive material on that ordering, not a test of it.
+
+All three hypotheses are testable with the response paths defined in the rest of this chapter. Stronger transmission is measured as defined in \Cref{chap:introduction}: an accumulated response that keeps its sign and excludes zero through the longer horizons, together with sign consistency across horizons and samples. \Cref{chap:results} reports the tests and \Cref{tab:hypothesis-assessment} collects the verdicts.
+
+\section{The Identification Problem}
+
+Monetary policy is not random. The ECB reacts to inflation, to slack, to financial stress, and to its own forecasts. A simple regression of any outcome on a policy-rate change therefore mixes three things. It mixes the policy action, the private sector's anticipation of that action, and the information the central bank reveals when it acts.
+
+High-frequency identification narrows the timing. It measures the change in yields or asset prices inside a short window around each ECB announcement \parencite{Kuttner2001,GertlerKaradi2015,NakamuraSteinsson2018,Altavilla2019}. A movement in that window is hard to explain with slow-moving macro data, so it is a cleaner read on what markets did not expect. This does not solve everything. An announcement can also reveal the ECB's own view of the economy, which is the information effect \parencite{JarocinskiKaradi2020}. For that reason the surprise is used as measured policy news. It is not treated as a fully clean structural shock.
+
+\section{Constructing the Shock Series}
+\label{sec:shock-construction}
+
+Three frequencies meet in this thesis, and the chain between them is stated here once. The surprises are measured intraday. The ECB's Euro Area Monetary Policy Event-Study Database records how OIS rates, sovereign yields, and equity prices change inside a short window around each Governing Council communication, from shortly before the press release or the press conference begins to shortly after it ends \parencite{Altavilla2019,ECBEAMPD}. \textcite{Altavilla2019} compress those window changes into a small number of factors. This thesis uses their target factor: the component measured in the press-release window and normalised to move the one-month OIS rate one for one, which makes it the surprise in the rate decision itself. The factor values come from the updated vintage of 30 October 2025 \parencite{RagusaFactors}, so one target-factor value exists per announcement. Estimation runs at the monthly frequency. The announcement-level values are summed to months as set out below, and every response variable, every control, and every regression in \Cref{chap:results,chap:robustness} is monthly. Series observed only at quarter ends are never disaggregated to reach that frequency, and \Cref{chap:data} explains how they are handled instead.
+
+Let \(z^{f}_{e}\) be the high-frequency surprise for factor family \(f\) at event \(e\). The monthly value sums the events in the month.
+\begin{equation}
+  Z^{f}_{m}
+  =
+  \sum_{e \in \mathcal{E}(m)} z^{f}_{e},
+  \label{eq:monthly-shock-aggregation}
+\end{equation}
+Here \(\mathcal{E}(m)\) is the set of ECB events in month \(m\). Summing keeps the total news that arrived in the month, which matters when a month contains more than one relevant communication. Months with no event take a value of zero inside the sample coverage. Two events have no target-factor value in the surprise data, the inter-meeting cut of 8 October 2008 and the meeting of 6 November 2008. October 2008 therefore carries only the 2 October surprise, and November 2008 has no shock value and drops out of the regressions. Months after the source series ends are dropped.
+
+The shock used in the thesis flips the sign of the target factor.
+\begin{equation}
+  \mathrm{Shock}_{m}
+  =
+  - Z^{target}_{m},
+  \label{eq:target-easing-sign}
+\end{equation}
+After the flip a positive value is an easing surprise and a negative value a tightening surprise. The reference point is what markets expected just before the communication, not the previous level of the rate. A cut that markets had fully priced is close to zero, and a hike smaller than the one they had priced is an easing surprise. The size of the value is the size of the revision in short-term rate expectations inside the window. In the estimation sample the monthly series has a standard deviation of 2.41 and ranges from \(-21.1\) to \(13.7\), so a few announcements carry much of the variation, a feature \Cref{chap:robustness} returns to. The timing, forward-guidance, QE, and weighted-composite factors are kept for the robustness chapter.
+
+\section{Screening for Information Effects}
+\label{sec:information-screen}
+
+Not every announcement is a clean monetary signal. The screen compares three signs at each event: the rate factor, the six-month OIS change inside the announcement window, and the STOXX50 change in the same window. The rate factor is the target factor, or the timing factor when the event has no target surprise, and the timing factor also stands in for the OIS change when that window is missing. When the yield move and the equity move have opposite signs, the event looks like a cleaner monetary surprise. When they share a sign the event is marked as a possible information shock, when the rate factor and the yield move disagree it is marked as a sign conflict, and zero or missing market responses are marked as ambiguous. Everything except the clean class counts as contaminated. In the monthly identification window, January 2005 to October 2025, 76 events are clean and 132 are contaminated or ambiguous.
+
+The baseline keeps the full target shock. The clean-event and contaminated-event series are then used to test how far the results depend on the noisy events. The negative DAX response reported later is read under this same caution. An easing surprise can carry bad news about the economy, and equity markets react to both parts.
+
+The screen has a limit that should be stated. Its sign rule is a necessary condition for a pure monetary surprise, not a sufficient one. Yields and equities moving in the same direction is inconsistent with a policy shock alone, so the rule rejects such events with some confidence. The converse does not hold. Yields falling while equities rise is what an easing surprise produces, but it is also what any unrelated piece of good news arriving inside the window would produce, so an event that passes the screen may still carry information that has nothing to do with the policy decision. The 76 clean events are therefore events the rule could not reject, not events shown to be pure. Establishing purity would require checking each window against the news flow of the day, which lies outside this thesis. Two features of the design limit the damage. The baseline keeps every event, so no headline result rests on the classification, and the clean and contaminated series enter only as a robustness comparison in \Cref{chap:robustness}. If the clean sample is itself partly contaminated, that comparison understates rather than overstates how far the two groups differ.
+
+\section{Relevance and the Interpretation Boundary}
+
+A natural question is whether the surprise can instrument a specific low-frequency policy variable, such as the change in the deposit facility rate, the shadow rate, or ECB assets \parencite{MertensRavn2013,StockWatson2018}. A first-stage tournament tests this across every candidate pairing, 45 in all. Each first stage regresses the candidate policy variable on the surprise, two lags of the policy variable, and the current and lagged monthly euro-area inflation rate. It records the conventional first-stage \(F\)-statistic from the restricted and unrestricted residual sums of squares, a HAC \(t\)-statistic with three lags, and the partial \(R^2\), the share of the residual variance of the policy variable that the surprise explains \parencite{StockYogo2005}. Two sensitivity checks follow. A jackknife drops the five months with the largest absolute surprises and re-estimates, and rolling 60-month windows, moved one month at a time, track whether relevance is steady across the sample and across the four policy eras defined in \Cref{sec:subsample-analysis}.
+
+The best bridge is the end-of-month change in the deposit facility rate on the easing-signed target surprise, with \(F=17.07\) and partial \(R^2=0.066\). That is real full-sample relevance, not a weak-instrument collapse. The problem is stability. The relevance is carried by a small number of large events, and \Cref{chap:robustness} shows how quickly it weakens once those events are removed. It is not steady enough to support a strong claim about one treatment variable. The thesis takes the honest route. It estimates responses to the policy-news shock itself, and it does not upgrade the surprise into an instrument for the DFR or the balance sheet.
+
+\section{Local Projections}
+\label{sec:local-projections}
+
+The responses are estimated with local projections \parencite{Jorda2005}. One regression is run for each response variable, each horizon, and each shock.
+\begin{equation}
+  y_{t+h} - y_{t-1}
+  =
+  \alpha_h
+  + \beta_h \mathrm{Shock}_{t}
+  + \Gamma_h X_t
+  + \varepsilon_{t+h},
+  \qquad
+  h \in \{0,1,3,6,12,24\}.
+  \label{eq:baseline-lp}
+\end{equation}
+Here \(y\) is the response variable, \(t\) is the month of the ECB communication, \(h\) counts months after it, and \(\varepsilon_{t+h}\) is the regression error. The control vector holds six lagged values,
+\begin{equation}
+  X_t
+  =
+  \bigl(y_{t-1},\; y_{t-2},\; \pi_{t-1},\; \pi_{t-2},\; r_{t-1},\; r_{t-2}\bigr),
+  \label{eq:lp-controls}
+\end{equation}
+where \(\pi\) is month-on-month euro-area inflation and \(r\) is the monthly-average deposit facility rate. The subscript on \(X_t\) marks the information set at the time of the shock. Every element of it is dated before month \(t\). The coefficient \(\beta_h\) is the response of \(y\) at horizon \(h\) to a unit surprise, and it is the only coefficient that is interpreted. The next five subsections justify each part of the equation: the dependent variable and its base month, the dating of the shock, the dating of the controls, the treatment of levels and rates, and the choice of local projections over a VAR.
+
+\subsection{The Dependent Variable and Its Base Month}
+
+The left side is a long difference. It measures how far \(y\) has moved \(h\) months after the communication, relative to its value in the month before it. The base is \(y_{t-1}\) rather than \(y_{t}\) for a timing reason. The communication falls inside month \(t\). The monthly observations of the response variables are month-end values or averages over the month, so \(y_{t}\) is recorded after the news has arrived and may already contain part of the response to it. The last observation that is certain to predate the shock is \(y_{t-1}\). Measuring from there keeps the whole response inside the dependent variable, including the part that occurs within the month of the announcement, which is what the regression at \(h=0\) estimates.
+
+Because \(y_{t-1}\) is itself a control, the choice of base among the pre-shock values does not affect \(\widehat{\beta}_h\). Subtracting \(y_{t-1}\) from the left side only shifts the coefficient on that control by one, and a regression of the level \(y_{t+h}\) on the same right-hand side returns the same shock coefficient to machine precision in every one of the 60 baseline cells. The base must predate the shock, and beyond that it is a choice of units. The long difference makes the left side a change, which is the unit in which a response path should be read. Using \(y_{t}\) as the base would be different in kind. It would hold a post-shock value fixed on the right-hand side, which is the problem \Cref{sec:controls-dating} describes, and it would force the impact response to zero by construction.
+
+\subsection{The Shock and Its Dating}
+
+The shock is dated \(t\), the month in which the communication took place, and it enters once. It is not lagged. The surprise is realised at a known moment inside month \(t\), nothing about it is observed before that moment, and the response variables from month \(t\) onward are the first that can react to it. Pairing \(y_{t+h} - y_{t-1}\) with \(\mathrm{Shock}_{t-1}\) would date the news one month before it existed. No lags of the shock are added either. A local projection at horizon \(h\) already measures the effect of the month-\(t\) surprise over the following \(h\) months, so the dynamics come from varying \(h\) across the six regressions, not from a distributed lag inside any one of them. This is the design of \textcite{Jorda2005}, and it is what makes the coefficient at each horizon readable as a point on the response path. Earlier surprises also affect \(y_{t+h}\), but they do not need to be controlled for, because they are nearly uncorrelated with the month-\(t\) surprise. Each surprise is measured against the expectations that prevailed just before its own announcement, and the first-order autocorrelation of the monthly shock in the estimation sample is \(-0.09\). Their effect therefore sits in the error term without biasing \(\beta_h\).
+
+\subsection{The Controls and Their Dating}
+\label{sec:controls-dating}
+
+The controls serve one purpose. They remove from \(y_{t+h} - y_{t-1}\) the part that was predictable before the shock arrived, so that \(\beta_h\) is estimated from the variation that remains. Each element of \(X_t\) is dated \(t-1\) or \(t-2\), and that dating is deliberate. A control must be correlated with the outcome and must not itself be moved by the shock. Any variable dated \(t\), \(t+1\), or later fails the second condition, because the surprise can move it. Conditioning on such a variable would hold fixed part of the channel through which the shock works, and \(\beta_h\) would then measure only the remainder. \textcite{AngristPischke2009} call variables of this kind bad controls, and the rule is general: the controls in a response regression must be fixed before the treatment. The variation in \(y_{t+h}\) that is caused by events after month \(t\) is therefore left in the error term. That widens the standard errors, which is why the uncertainty layer in \Cref{sec:uncertainty} is extensive, but it does not bias \(\beta_h\), because the surprise is measured against the expectations held just before the communication and is uncorrelated with news that had not yet arrived.
+
+Each pair of lags does a specific job. The two lags of the response itself absorb its own momentum, so that a movement already under way before the announcement is not credited to it. They also make the inference robust to persistence. \textcite{MontielOleaPlagborgMoller2021} show that a local projection augmented with lags of all variables in the system supports inference with standard critical values whether the series is stationary or close to a unit root, provided the horizon is short relative to the sample, which matters here because the log levels in the response set are highly persistent. The two lags used here follow that logic without meeting every condition of their result. The two lags of inflation hold fixed the state of the economy to which the ECB was responding, and the two lags of the deposit facility rate hold fixed the policy stance, so that the same surprise is compared across months in which rates stood at minus one half of a percent and at four percent. Together the inflation and policy-rate lags absorb the predictable component of the policy decision, the part a reaction function would produce. Two lags are used throughout. \Cref{chap:robustness} explains why a longer lag grid is not run and which checks take its place.
+
+\subsection{Levels, Rates, and Growth}
+
+The response variables come in two forms. Spreads, growth rates, and survey balances are rates, measured in percentage points or index points. The DAX, the credit stocks, the ECB balance sheet, and new mortgage loans are levels and enter in logs. The long difference treats both consistently. For a rate it is the change in the rate over \(h\) months, in percentage points. For a log level it is the log change, which is close to the percentage change in the level. The left side is therefore always a change, never a level, and each response is read in its own units. The comparison across responses in \Cref{chap:results} is of sign, persistence, and stability, not of size.
+
+The two types also differ in how they move over time, and the right side has to allow for that. Log levels are highly persistent and trend upward. Spreads and growth rates revert. The lags of the response carry this difference into the regression. Because \(y_{t-1}\) and \(y_{t-2}\) together determine the last pre-shock change \(y_{t-1} - y_{t-2}\), conditioning on the two lagged values is the same as conditioning on the last pre-shock level and the last pre-shock change. For a log index the regression holds fixed where the index stood and how fast it was growing when the news arrived. For a rate it holds fixed the level of the rate and its last move. The persistence of the error term also differs across the two types, and nothing in the specification forces it to be the same. The HAC bandwidth and the bootstraps of \Cref{sec:uncertainty} are computed response by response from each regression's own residuals, and \Cref{tab:residual-diagnostics} reports what those residuals look like.
+
+\subsection{Why Local Projections}
+
+Local projections are used instead of a VAR for three reasons. The interest is in the path of each response rather than in the full system of dynamic interactions. The horizons are irregular, and a VAR would have to be iterated out to each of them from a single lag structure. And a local projection stays robust when the longer dynamics are hard to specify, because each horizon is estimated directly rather than by iterating a one-step model forward. The cost is that each regression spans \(h\) months, so neighbouring observations of the dependent variable overlap and the errors are serially correlated by construction. \Cref{sec:uncertainty} is built around that cost.
+
+\subsection{Scaling and Accumulation}
+
+Each coefficient is scaled to a one-standard-deviation shock, with the standard deviation taken over the estimation sample of that regression. A cell is estimated only when at least 48 months are available.
+\begin{equation}
+  \widehat{\IRF}_{h}
+  =
+  \widehat{\beta}_{h}\widehat{\sigma}_{\mathrm{Shock}}.
+  \label{eq:lp-normalization}
+\end{equation}
+The scaled coefficients give the impulse response at each horizon in the response's own units. Their running sum over the reported horizons gives the accumulated response,
+\begin{equation}
+  \widehat{\mathrm{CIRF}}(H)
+  =
+  \sum_{h \in \mathcal{H}:\, h \leq H} \widehat{\IRF}_{h},
+  \qquad
+  \mathcal{H} = \{0,1,3,6,12,24\},
+  \label{eq:cumulative-response}
+\end{equation}
+which is the main measure of how long an effect lasts. It is a persistence index rather than a cumulative multiplier. It sums the six reported horizons, not every month between them, so its level has no reading as a total effect. What it does is reward a response that keeps its sign across horizons and penalise one that changes sign. It rises as long as the single-horizon responses stay positive and falls when they turn negative. A fall in the accumulated response between two horizons is therefore read in \Cref{chap:results} as a partial reversal of the earlier response, and a response is called persistent only if its accumulated value keeps its sign and excludes zero at the longer horizons, as \Cref{chap:introduction} defined the term.
+
+\section{Uncertainty}
+\label{sec:uncertainty}
+
+The baseline standard errors are HAC Newey--West with bandwidth \(h+1\) \parencite{NeweyWest1987}. The bandwidth grows with the horizon because a local projection at horizon \(h\) overlaps its neighbors, so the residuals are serially correlated by construction.
+
+The accumulated responses need a second step. Their HAC intervals add the horizon-level variances as if the horizon estimates were independent,
+\begin{equation}
+  \widehat{\sigma}_{\mathrm{CIRF}}(H)
+  =
+  \Bigl(\sum_{h \in \mathcal{H}:\, h \leq H} \widehat{\sigma}_{h}^{2}\Bigr)^{1/2},
+  \label{eq:cumulative-se}
+\end{equation}
+where \(\widehat{\sigma}_{h}\) is the HAC standard error of the scaled coefficient at horizon \(h\). That is an approximation. Adjacent projections share residuals, and \Cref{chap:robustness} measures how strongly. Three bootstraps therefore sit next to the HAC intervals. A fixed-design residual bootstrap with circular blocks of length \(\max(3, h+1)\) gives a second interval for every horizon-level coefficient of the target shock. A joint moving-block bootstrap resamples the residuals of all six horizons together, in blocks of twelve months, and so keeps the dependence across horizons when it builds the accumulated path. A wild bootstrap does the same with random sign flips instead of blocks. The wild bootstrap keeps the dependence across horizons but not across months. Each uses 399 replications and percentile intervals. Where the HAC interval and the joint bootstraps disagree on an accumulated response, \Cref{chap:results} says so, and \Cref{tab:bootstrap-cumulative} reports both.
+
+The bootstraps rest on properties of the residuals that can be checked, and \Cref{chap:robustness} reports those checks in \Cref{tab:residual-diagnostics} for every canonical response at every horizon. Serial correlation up to lag \(h\) is expected by construction and is what the HAC bandwidth covers, so the relevant test is for correlation beyond the bandwidth \parencite{LjungBox1978}. Heteroskedasticity, unconditional or conditional, is what the wild bootstrap is designed to tolerate, so its presence is the reason the wild interval is reported alongside the moving-block interval \parencite{BreuschPagan1979,Koenker1981,Engle1982}. Non-normality is the reason every bootstrap interval is a percentile interval and none relies on a normal approximation to the bootstrap distribution \parencite{JarqueBera1980}.
+
+\section{Sequential Timing}
+\label{sec:sequential-timing}
+
+The mechanism chain suggests an order, with lending conditions adjusting before housing credit. Monthly aggregates cannot test that order directly, because every variable responds to the same shock within the same month. The sequential layer therefore asks a narrower question. It fixes an upstream variable \(u\) at an early horizon \(h_u\) and a downstream variable \(d\) at a later horizon \(h_d\), and asks whether the early move carries information about the later one once the shock itself is held fixed:
+\begin{equation}
+  d_{t+h_d} - d_{t-1}
+  =
+  a
+  + \lambda (u_{t+h_u} - u_{t-1})
+  + \theta \mathrm{Shock}_{t}
+  + \Pi W_t
+  + \nu_t .
+  \label{eq:sequential-timing}
+\end{equation}
+Here \(W_t\) holds the first and second lags of the upstream variable, the downstream variable, inflation, and the deposit facility rate, dated as in \Cref{sec:controls-dating}. Unlike those controls, the upstream change \(u_{t+h_u} - u_{t-1}\) is dated after the shock. That is intended. It is the variable whose association with the later downstream move is being measured, not a control, which is why \(\lambda\) is not given a causal reading. The coefficient \(\lambda\) is a conditional association between an early upstream move and a later downstream move. The order of the horizons is imposed by the design, so a positive and precise \(\lambda\) says that the two moves line up in time, not that one causes the other. A negative \(\lambda\) between a price and a quantity is the ordinary sign of a demand relation and is read as such. The peak horizons of the individual responses, reported in the appendix, are the second piece of timing evidence.
+
+\section{What the Model Can and Cannot Say}
+
+The model gives reduced-form dynamic evidence under imperfect identification. It shows where ECB policy news leaves the clearest and most persistent mark, and it compares the financial channels with a real-economy block. It is a study of heterogeneous transmission and financial propagation. It is not a welfare analysis, an inequality decomposition, or a study of household redistribution. The results chapter and the conclusion stay inside this line.
+
+\section{Reproducibility}
+
+The entire empirical layer is reproducible from a single pipeline. One command reruns the data build, the shock construction, the local projections, the uncertainty checks, and a final audit, and every figure and every numerical table in this thesis is written by that pipeline, while the three qualitative tables are typeset from the same outputs. A second script reproduces every table of the thesis in thesis order and numbering from the same outputs, and \Cref{app:artifact-registry} lists the canonical output files behind the reported evidence. The next chapter sets out the data and the proxy choices. The robustness chapter later returns to event contamination, historical exclusions, rolling and recursive windows, alternative shock factors, a raw-policy-rate comparison, and descriptive regimes.

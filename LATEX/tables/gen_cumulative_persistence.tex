@@ -1,0 +1,35 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Accumulated responses at the medium and long horizons}
+  \label{tab:cumulative-persistence}
+  \footnotesize
+  \setstretch{1.0}
+  \setlength{\tabcolsep}{5pt}
+  \begin{tabular}{@{}l S[table-format=-1.3, table-space-text-post={$^{\dagger}$}] S[table-format=-1.3, table-space-text-post={$^{\dagger}$}] S[table-format=-1.3, table-space-text-post={$^{\dagger}$}]@{}}
+    \toprule
+    & \multicolumn{3}{c}{Horizon in months} \\
+    \cmidrule(lr){2-4}
+    Response & \multicolumn{1}{c}{6} & \multicolumn{1}{c}{12} & \multicolumn{1}{c}{24} \\
+    \midrule
+    house-purchase lending growth & 0.385$^{\dagger}$ & 0.483$^{\dagger}$ & 0.357$^{\dagger}$ \\
+    pure new house-purchase loans & 0.027 & 0.025 & -0.006 \\
+    mortgage lending spread & 0.068$^{\dagger}$ & 0.118$^{\dagger}$ & 0.140$^{\dagger}$ \\
+    NFC lending spread & 0.035$^{\dagger}$ & 0.060$^{\dagger}$ & 0.071$^{\dagger}$ \\
+    NFC credit & -0.001 & -0.001 & -0.002 \\
+    real DAX & -0.019 & -0.040$^{\dagger}$ & -0.067$^{\dagger}$ \\
+    ECB assets & -0.012 & -0.022 & -0.032 \\
+    real wage tracker excl. one-offs & -0.260$^{\dagger}$ & -0.302$^{\dagger}$ & -0.041 \\
+    German industry real wage bill growth & 1.377$^{\dagger}$ & 1.593$^{\dagger}$ & 1.488$^{\dagger}$ \\
+    employment expectations & 2.545$^{\dagger}$ & 2.762$^{\dagger}$ & 1.962 \\
+    \bottomrule
+  \end{tabular}
+  \vspace{0.3em}
+  \begin{minipage}{\textwidth}\footnotesize\setstretch{1.0}
+  Notes: Running sum of the normalized impulse responses through each horizon.
+  Intervals combine the horizon-level HAC standard errors under an independence
+  approximation across horizons. $^{\dagger}$ marks accumulated responses whose 90 percent
+  HAC interval excludes zero. \Cref{tab:bootstrap-cumulative} reports the dependence-aware
+  bootstrap intervals for the same accumulated responses.
+  Source: own calculations.
+  \end{minipage}
+\end{table}

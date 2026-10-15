@@ -1,0 +1,33 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Bootstrap interval width relative to the wild bootstrap}
+  \label{tab:bootstrap-sensitivity}
+  \footnotesize
+  \setstretch{1.0}
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{@{}l S[table-format=1.2] S[table-format=1.2] S[table-format=1.2] S[table-format=1.2] S[table-format=1.2] S[table-format=1.2]@{}}
+    \toprule
+    & \multicolumn{6}{c}{Horizon in months} \\
+    \cmidrule(lr){2-7}
+    Response & \multicolumn{1}{c}{0} & \multicolumn{1}{c}{1} & \multicolumn{1}{c}{3} & \multicolumn{1}{c}{6} & \multicolumn{1}{c}{12} & \multicolumn{1}{c}{24} \\
+    \midrule
+    house-purchase lending growth & 0.78 & 0.82 & 0.73 & 0.83 & 1.09 & 1.35 \\
+    pure new house-purchase loans & 1.09 & 0.83 & 0.92 & 1.07 & 1.11 & 0.64 \\
+    mortgage lending spread & 0.78 & 0.58 & 0.65 & 0.78 & 0.81 & 1.05 \\
+    NFC lending spread & 0.75 & 0.55 & 0.63 & 0.88 & 0.89 & 1.08 \\
+    NFC credit & 0.72 & 0.61 & 0.60 & 0.69 & 0.79 & 0.78 \\
+    real DAX & 0.70 & 0.98 & 1.28 & 0.94 & 0.95 & 0.64 \\
+    ECB assets & 0.82 & 0.75 & 0.65 & 0.74 & 0.70 & 0.65 \\
+    real wage tracker excl. one-offs & 0.97 & 1.13 & 1.41 & 1.17 & 1.73 & 0.86 \\
+    German industry real wage bill growth & 1.58 & 0.59 & 0.83 & 1.14 & 1.06 & 1.34 \\
+    employment expectations & 0.54 & 0.33 & 0.79 & 1.12 & 1.11 & 1.48 \\
+    \bottomrule
+  \end{tabular}
+  \vspace{0.3em}
+  \begin{minipage}{\textwidth}\footnotesize\setstretch{1.0}
+  Notes: Ratio of the moving-block to the wild bootstrap 90 percent interval width.
+  Values above one indicate that the dependence-aware moving-block interval is the
+  more conservative of the two.
+  Source: own calculations.
+  \end{minipage}
+\end{table}

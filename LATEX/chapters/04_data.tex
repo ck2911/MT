@@ -1,0 +1,94 @@
+\chapter{Data}
+\label{chap:data}
+
+\Cref{chap:methodology} defined what is estimated. This chapter describes the data it is estimated on: where each series comes from, which proxies stand in for the concepts the hypotheses name and why, how frequency is handled, how the series are transformed, and what the final sample looks like.
+
+\section{Data Architecture}
+
+The dataset is a monthly euro-area and Germany panel. It is built from high-frequency ECB surprise files \parencite{ECBEAMPD,RagusaFactors}, ECB monetary and banking series \parencite{ECBDataPortal}, Eurostat indicators \parencite{EurostatDatabase}, market data, and a set of official monthly proxy candidates from the same two portals. \Cref{tab:data-sources} in the appendix lists every series with its code and access date. The estimation panel holds 250 monthly observations from January 2005 through October 2025, dated at month ends, across 171 variables. Two build steps produce it: one constructs the shock series from the announcement-window surprises, and one assembles the panel from the source series.
+
+The full rebuild, from the shocks through the final audit, runs from the single pipeline set out in \Cref{chap:methodology}. Source manifests, coverage tables, and diagnostics form the factual reference layer, and every number in this chapter traces back to them.
+
+\section{Variable Selection Logic}
+
+A variable enters the panel only if it clears four rules. It has to trace to an official source. It has to be reproducible from the build scripts. It must be estimable at monthly frequency, or observed at quarter ends. And it has to be narrower than the thesis claim. The last rule does the most work. A mortgage-credit proxy is not a house-price measure, and a wage tracker is not total compensation. The administered policy rate is a different object again from the high-frequency shock. If each proxy stays narrower than the claim, the measurement cannot quietly become the result the estimates are meant to produce.
+
+\subsection{Monetary Policy and Liquidity Variables}
+
+The policy shock is the easing-signed monthly target surprise, \(\mathrm{Shock}_t\). It is the monthly sum of ECB target-factor announcement-window surprises, signed so that a positive value is an easing surprise. Its construction and sign convention are set in \Cref{chap:methodology}. The timing, forward-guidance, QE, and weighted-composite factors enter as robustness shocks. The QE factor starts later, in 2014-01, because that is when the source series begins.
+
+The administered policy rate enters separately from the shock. The ECB deposit facility rate \parencite{FREDECBDFR} is kept both as a month-end series and as a monthly-average series. First differences of the rate support bridge diagnostics. The monthly average feeds the local projection controls and the lending spreads. The Wu-Xia euro-area shadow rate covers 2005-01 through 2022-08 \parencite{WuXia2016,WuXia2020,WuXiaShadowRateData}. It is not extended, because that is where the source series ends. ECB asset stocks \parencite{FREDECBASSETSW} arrive weekly. They are converted to month-end and monthly-average series, then transformed into logs, differences, and scaled variants.
+
+\subsection{Lending Conditions and Credit Quantities}
+
+This is the intermediation block, the link between policy news and the financial responses. Mortgage and NFC lending rates come from the ECB's interest-rate statistics. The main lending-condition variables subtract the monthly-average deposit facility rate from each lending rate, which gives the mortgage and NFC lending spreads defined in \Cref{eq:lending-spread}. The spreads measure the borrower-facing margin over the policy-rate floor. That margin is what a bank sets, not what the central bank administers.
+
+Broad credit enters as log household and log NFC loan stocks. Household loans are read as background credit rather than a targeted response. Housing finance is measured two ways. The canonical monthly proxy is the annual growth rate of ECB lending for house purchase, available across the full sample. The second measure is the log of pure new house-purchase loans, a flow series that begins in August 2017 and enters as robustness. ECB Bank Lending Survey variables are observed at quarter ends only. They give institutional context on credit standards and loan demand, not a monthly response.
+
+\subsection{Market, Housing-Credit, and Compensation Variables}
+
+The market-price response is the real DAX, the DAX close \parencite{YahooDAX} deflated with German HICP \parencite{EurostatHICP} and taken in logs. Quarterly German house prices \parencite{FREDQDEN628BIS} are kept in real log form at their observed quarter-end dates. They are not converted into a monthly response, so the house-price series stays a quarter-end reference rather than an estimated path.
+
+The canonical compensation response is the real ECB Wage Tracker excluding one-off payments, the nominal tracker minus EA20 annual HICP inflation, and it begins in January 2013. Headline, unsmoothed, moving-average, and momentum variants are robustness measures. Quarterly compensation per employee is kept in real log form, again at quarter ends only. A monthly robustness partner comes from the Eurostat STS German industry wage bill. Four more series enter as indirect labor-pressure and real-activity diagnostics: employment expectations from ECB and Eurostat sources, inverse unemployment tightness, the ECB Consumer Expectations Survey, and German retail volume. They frame the compensation block. They do not substitute for it.
+
+\section{Frequency Governance}
+
+Frequency is treated as a hard constraint, not a nuisance. Monthly estimation needs monthly variation. Some of the most conceptually direct series are observed only at quarter ends. Each such level series carries 83 observations, from 2005-03-31 to 2025-09-30, on quarter-end months alone.
+
+The shock sits at the other end of the frequency ladder. It is measured intraday, one value per announcement, and summed to months before it enters any regression, as \Cref{sec:shock-construction} sets out. The monthly frequency is therefore the meeting point. The shock is aggregated up to it, and the quarterly series are never disaggregated down to it.
+
+Quarterly interpolation is rejected. Filling the missing months would create artificial smoothness and would spread a single quarterly move mechanically across three months. That would manufacture the very timing the thesis sets out to measure. So the quarterly series are left as observed. The cost is direct. Taking a monthly log difference of a quarter-end series returns nothing usable. The processed coverage confirms it. The monthly log differences of the quarterly house-price, compensation, and Bank Lending Survey series contain zero observations.
+
+The answer to this constraint is to estimate on narrower series that are genuinely monthly. House-purchase lending growth replaces mortgage finance, and the wage-tracker variables replace negotiated wage pressure. Both are less direct than the quarterly measures, but they are observed every month, which is what the estimator needs. The quarterly series stay in the panel as context, not as responses.
+
+\section{Proxy Validation Framework}
+
+Proxy selection is not left to judgment alone. A scoring framework in the pipeline rates each candidate and sorts it into one class. The classes are canonical, robustness, indirect, diagnostic, rejected, and unavailable.
+
+Every candidate, housing and compensation alike, first passes a common scorecard. It is a weighted sum of ten sub-scores, each on a one-to-five scale. Four describe the data: economic interpretability, monthly continuity, missingness, and the realism of the series' volatility. Six describe the candidate's own response to the target surprise: sign stability across horizons, persistence, correlation with the quarterly concept the proxy stands in for, sign stability across sub-periods, sensitivity to the clean-event screen, and consistency across regimes. Interpretability and continuity carry the largest weights. On the housing side the outcome keeps house-purchase lending growth as canonical, pure-new house-purchase loans as robustness, and broad household loans as general credit.
+
+Compensation proxies then face a second, longer scorecard of fourteen weighted sub-scores. On the data side it rates economic interpretability, frequency integrity, revision risk, stationarity, and the signal-to-noise ratio. On the response side it rates shock sensitivity at six months, sign consistency across horizons, cumulative persistence, the share of horizons with HAC significance, clean-event sensitivity, rolling- and recursive-window stability, regime consistency, and bootstrap sign stability. Here the mechanical scoring and the final choice part ways. The scorecard ranks the Eurostat German industry wage bill first, with a score of 157. The ECB Wage Tracker excluding one-offs ranks third, at 141. The selection still keeps the wage tracker as the primary canonical compensation proxy and moves the German wage bill to a secondary robustness proxy. The reason is conceptual, not statistical. The wage tracker is the most interpretable monthly wage-pressure measure, and the euro-area negotiated-wage concept fits the thesis better than a narrower national industry wage bill. No composite index is selected. Employment expectations and inverse unemployment tightness stay as indirect diagnostics.
+
+The appendix reports the compensation proxy ranking in \Cref{fig:appendix-compensation-proxy-rankings}. It supports the selection and is not used as a separate results claim.
+
+\section{Transformation Pipeline}
+
+The transformations are uniform across the panel. Positive-valued stocks and indexes are logged. First differences subtract the previous monthly observation. Year-on-year growth uses twelve-month log differences. Real variables deflate the nominal series with the matching HICP index. The ECB wage trackers arrive as nominal annual growth rates, so the real versions subtract EA20 annual HICP inflation. The German industry wage-bill proxy follows the same real-growth rule,
+\begin{equation}
+  100\left[\log(W_t) - \log(W_{t-12})\right] - \pi^{DE}_{t,t-12},
+  \label{eq:real-wage-bill}
+\end{equation}
+where \(W_t\) is the monthly wage-bill index and \(\pi^{DE}_{t,t-12}\) is German annual inflation.
+
+The lending spreads are the borrower rate minus the policy floor,
+\begin{equation}
+  \mathrm{Spread}^{j}_{t}
+  =
+  r^{j}_{t}
+  -
+  \mathrm{DFR}^{mavg}_{t},
+  \label{eq:lending-spread}
+\end{equation}
+where \(j\) denotes mortgage or NFC lending. Response variables are left in their natural units and are not standardized. Only the shock response is normalized in the local projection output, which keeps every response readable on its own scale.
+
+\section{Final Sample Construction}
+
+Coverage across the 250-row sample is not uniform, and the gaps are handled by response-specific estimation samples rather than imputation. Each local projection uses the months where its own variables are present. Four series set the binding edges. The target shock is nearly complete across the sample. The Wu-Xia shadow rate ends in 2022-08. The pure-new house-purchase loans begin in 2017-08. The wage tracker begins in 2013-01.
+
+Event filtering sits on top of the same panel. The screen in \Cref{chap:methodology} sorts the events into clean, contaminated, and ambiguous samples, and \Cref{chap:robustness} reports the full event breakdown. COVID, crisis-window, QE-launch, extreme-shock, rolling, recursive, and regime variants are robustness devices, not the baseline.
+
+\section{Descriptive Statistics and Correlations}
+
+\Cref{tab:descriptive-stats} reports the shock and the ten canonical response variables. Three features matter for the estimation that follows. The easing surprise has a mean close to zero, which is what a measure of unexpected news should look like, and a standard deviation of 2.41 with a range from \(-21.1\) to \(13.7\), so a few announcements dominate the variation. That concentration is the same feature the relevance diagnostics pick up in \Cref{chap:robustness}. House-purchase lending growth averages 3.62 percent a year and moves over a wide band, from \(-0.56\) to 12.17, so there is real variation to explain. The lending spreads average slightly above two percentage points over the deposit rate, and the mortgage spread turns marginally negative at its minimum, which occurs in May 2024, when the deposit facility rate stood at 4 percent.
+
+The differing sample sizes are the visible cost of the frequency rule set out above. The shock, housing credit, the spreads, broad credit, the DAX, ECB assets, and employment expectations are observed in all or nearly all 250 months. The wage tracker has 154 observations and the pure-new-loan series only 99, because both start later than the panel. The wage-tracker gap explains why the compensation-linked estimates are less precise at long horizons, and the pure-new-loan gap explains why that series stays a robustness surface rather than the canonical housing proxy.
+
+\input{tables/gen_descriptive_stats}
+
+\Cref{tab:correlations} reports the pairwise correlations. The first column is the informative one for identification. The easing surprise is essentially uncorrelated with the contemporaneous level of every response, with coefficients between \(-0.14\) and 0.13, and only two of them reach the five percent level. That is the expected pattern for a high-frequency surprise. It carries news rather than tracking the slow-moving state of the economy, so the dynamic responses in \Cref{chap:results} are not driven by a mechanical contemporaneous association.
+
+The correlations among the responses are much stronger and confirm that the blocks behave as blocks. The two lending spreads move almost together at 0.91, house-purchase lending growth and pure-new loans correlate at 0.69, and the real DAX and ECB assets correlate at 0.82. Housing-credit growth is negatively correlated with broad NFC credit at \(-0.67\), which is an early sign of the sectoral differentiation the results chapter documents. These are unconditional correlations in levels and growth rates, so they describe co-movement in the panel rather than responses to policy news. The local projections are what separate the two.
+
+\input{tables/gen_correlations}
+
+With the data architecture, the proxy choices, the sample, and the descriptive picture fixed, the next chapter turns to the response evidence.
